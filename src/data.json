@@ -1,0 +1,3080 @@
+[
+  {
+    "state_name": "Alabama",
+    "capital": "Montgomery",
+    "flag_code": "us",
+    "state_abbreviation": "AL",
+    "area_sq_miles": 52420,
+    "type": "US state",
+    "gdp_nominal_2022": 277817500000,
+    "population": 5074296,
+    "popularity_tier": 1
+  },
+  {
+    "state_name": "Alaska",
+    "capital": "Juneau",
+    "flag_code": "us",
+    "state_abbreviation": "AK",
+    "area_sq_miles": 665384,
+    "type": "US state",
+    "gdp_nominal_2022": 63618000000,
+    "population": 733583,
+    "popularity_tier": 1
+  },
+  {
+    "state_name": "Arizona",
+    "capital": "Phoenix",
+    "flag_code": "us",
+    "state_abbreviation": "AZ",
+    "area_sq_miles": 113990,
+    "type": "US state",
+    "gdp_nominal_2022": 458949800000,
+    "population": 7359197,
+    "popularity_tier": 1
+  },
+  {
+    "state_name": "Arkansas",
+    "capital": "Little Rock",
+    "flag_code": "us",
+    "state_abbreviation": "AR",
+    "area_sq_miles": 53179,
+    "type": "US state",
+    "gdp_nominal_2022": 165220600000,
+    "population": 3045637,
+    "popularity_tier": 1
+  },
+  {
+    "state_name": "California",
+    "capital": "Sacramento",
+    "flag_code": "us",
+    "state_abbreviation": "CA",
+    "area_sq_miles": 163695,
+    "type": "US state",
+    "gdp_nominal_2022": 3598102700000,
+    "population": 39029342,
+    "popularity_tier": 1
+  },
+  {
+    "state_name": "Colorado",
+    "capital": "Denver",
+    "flag_code": "us",
+    "state_abbreviation": "CO",
+    "area_sq_miles": 104094,
+    "type": "US state",
+    "gdp_nominal_2022": 484371500000,
+    "population": 5839926,
+    "popularity_tier": 1
+  },
+  {
+    "state_name": "Connecticut",
+    "capital": "Hartford",
+    "flag_code": "us",
+    "state_abbreviation": "CT",
+    "area_sq_miles": 5543,
+    "type": "US state",
+    "gdp_nominal_2022": 321844600000,
+    "population": 3626205,
+    "popularity_tier": 1
+  },
+  {
+    "state_name": "Delaware",
+    "capital": "Dover",
+    "flag_code": "us",
+    "state_abbreviation": "DE",
+    "area_sq_miles": 2489,
+    "type": "US state",
+    "gdp_nominal_2022": 87524800000,
+    "population": 1018396,
+    "popularity_tier": 1
+  },
+  {
+    "state_name": "Florida",
+    "capital": "Tallahassee",
+    "flag_code": "us",
+    "state_abbreviation": "FL",
+    "area_sq_miles": 65758,
+    "type": "US state",
+    "gdp_nominal_2022": 1389069700000,
+    "population": 22244823,
+    "popularity_tier": 1
+  },
+  {
+    "country_name": "Georgia",
+    "capital": "Tbilisi",
+    "flag_code": "ge",
+    "type": "country",
+    "gdp_nominal_2022": 24606000000,
+    "population": 3740000,
+    "area_sq_km": 69700,
+    "popularity_tier": 2
+  },
+  {
+    "state_name": "Hawaii",
+    "capital": "Honolulu",
+    "flag_code": "us",
+    "state_abbreviation": "HI",
+    "area_sq_miles": 10932,
+    "type": "US state",
+    "gdp_nominal_2022": 98218800000,
+    "population": 1440196,
+    "popularity_tier": 1
+  },
+  {
+    "state_name": "Idaho",
+    "capital": "Boise",
+    "flag_code": "us",
+    "state_abbreviation": "ID",
+    "area_sq_miles": 83569,
+    "type": "US state",
+    "gdp_nominal_2022": 109546500000,
+    "population": 1939033,
+    "popularity_tier": 1
+  },
+  {
+    "state_name": "Illinois",
+    "capital": "Springfield",
+    "flag_code": "us",
+    "state_abbreviation": "IL",
+    "area_sq_miles": 57914,
+    "type": "US state",
+    "gdp_nominal_2022": 1033310100000,
+    "population": 12582032,
+    "popularity_tier": 1
+  },
+  {
+    "state_name": "Indiana",
+    "capital": "Indianapolis",
+    "flag_code": "us",
+    "state_abbreviation": "IN",
+    "area_sq_miles": 36420,
+    "type": "US state",
+    "gdp_nominal_2022": 455750200000,
+    "population": 6833037,
+    "popularity_tier": 1
+  },
+  {
+    "state_name": "Iowa",
+    "capital": "Des Moines",
+    "flag_code": "us",
+    "state_abbreviation": "IA",
+    "area_sq_miles": 56273,
+    "type": "US state",
+    "gdp_nominal_2022": 231107800000,
+    "population": 3200517,
+    "popularity_tier": 1
+  },
+  {
+    "state_name": "Kansas",
+    "capital": "Topeka",
+    "flag_code": "us",
+    "state_abbreviation": "KS",
+    "area_sq_miles": 82278,
+    "type": "US state",
+    "gdp_nominal_2022": 210670500000,
+    "population": 2937150,
+    "popularity_tier": 1
+  },
+  {
+    "state_name": "Kentucky",
+    "capital": "Frankfort",
+    "flag_code": "us",
+    "state_abbreviation": "KY",
+    "area_sq_miles": 40408,
+    "type": "US state",
+    "gdp_nominal_2022": 260304100000,
+    "population": 4512310,
+    "popularity_tier": 1
+  },
+  {
+    "state_name": "Louisiana",
+    "capital": "Baton Rouge",
+    "flag_code": "us",
+    "state_abbreviation": "LA",
+    "area_sq_miles": 52378,
+    "type": "US state",
+    "gdp_nominal_2022": 281429300000,
+    "population": 4590241,
+    "popularity_tier": 1
+  },
+  {
+    "state_name": "Maine",
+    "capital": "Augusta",
+    "flag_code": "us",
+    "state_abbreviation": "ME",
+    "area_sq_miles": 35380,
+    "type": "US state",
+    "gdp_nominal_2022": 84497500000,
+    "population": 1385340,
+    "popularity_tier": 1
+  },
+  {
+    "state_name": "Maryland",
+    "capital": "Annapolis",
+    "flag_code": "us",
+    "state_abbreviation": "MD",
+    "area_sq_miles": 12406,
+    "type": "US state",
+    "gdp_nominal_2022": 470187100000,
+    "population": 6164660,
+    "popularity_tier": 1
+  },
+  {
+    "state_name": "Massachusetts",
+    "capital": "Boston",
+    "flag_code": "us",
+    "state_abbreviation": "MA",
+    "area_sq_miles": 10554,
+    "type": "US state",
+    "gdp_nominal_2022": 688391600000,
+    "population": 6981974,
+    "popularity_tier": 1
+  },
+  {
+    "state_name": "Michigan",
+    "capital": "Lansing",
+    "flag_code": "us",
+    "state_abbreviation": "MI",
+    "area_sq_miles": 96714,
+    "type": "US state",
+    "gdp_nominal_2022": 620695600000,
+    "population": 10034113,
+    "popularity_tier": 1
+  },
+  {
+    "state_name": "Minnesota",
+    "capital": "St. Paul",
+    "flag_code": "us",
+    "state_abbreviation": "MN",
+    "area_sq_miles": 86936,
+    "type": "US state",
+    "gdp_nominal_2022": 446499500000,
+    "population": 5717184,
+    "popularity_tier": 1
+  },
+  {
+    "state_name": "Mississippi",
+    "capital": "Jackson",
+    "flag_code": "us",
+    "state_abbreviation": "MS",
+    "area_sq_miles": 48432,
+    "type": "US state",
+    "gdp_nominal_2022": 138739700000,
+    "population": 2940057,
+    "popularity_tier": 1
+  },
+  {
+    "state_name": "Missouri",
+    "capital": "Jefferson City",
+    "flag_code": "us",
+    "state_abbreviation": "MO",
+    "area_sq_miles": 69707,
+    "type": "US state",
+    "gdp_nominal_2022": 389931200000,
+    "population": 6177957,
+    "popularity_tier": 1
+  },
+  {
+    "state_name": "Montana",
+    "capital": "Helena",
+    "flag_code": "us",
+    "state_abbreviation": "MT",
+    "area_sq_miles": 147040,
+    "type": "US state",
+    "gdp_nominal_2022": 65014500000,
+    "population": 1122867,
+    "popularity_tier": 1
+  },
+  {
+    "state_name": "Nebraska",
+    "capital": "Lincoln",
+    "flag_code": "us",
+    "state_abbreviation": "NE",
+    "area_sq_miles": 77348,
+    "type": "US state",
+    "gdp_nominal_2022": 161702000000,
+    "population": 1967923,
+    "popularity_tier": 1
+  },
+  {
+    "state_name": "Nevada",
+    "capital": "Carson City",
+    "flag_code": "us",
+    "state_abbreviation": "NV",
+    "area_sq_miles": 110572,
+    "type": "US state",
+    "gdp_nominal_2022": 215917800000,
+    "population": 3177772,
+    "popularity_tier": 1
+  },
+  {
+    "state_name": "New Hampshire",
+    "capital": "Concord",
+    "flag_code": "us",
+    "state_abbreviation": "NH",
+    "area_sq_miles": 9349,
+    "type": "US state",
+    "gdp_nominal_2022": 105414400000,
+    "population": 1395231,
+    "popularity_tier": 1
+  },
+  {
+    "state_name": "New Jersey",
+    "capital": "Trenton",
+    "flag_code": "us",
+    "state_abbreviation": "NJ",
+    "area_sq_miles": 8723,
+    "type": "US state",
+    "gdp_nominal_2022": 745422200000,
+    "population": 9261699,
+    "popularity_tier": 1
+  },
+  {
+    "state_name": "New Mexico",
+    "capital": "Santa Fe",
+    "flag_code": "us",
+    "state_abbreviation": "NM",
+    "area_sq_miles": 121590,
+    "type": "US state",
+    "gdp_nominal_2022": 122114800000,
+    "population": 2113344,
+    "popularity_tier": 1
+  },
+  {
+    "state_name": "New York",
+    "capital": "Albany",
+    "flag_code": "us",
+    "state_abbreviation": "NY",
+    "area_sq_miles": 54555,
+    "type": "US state",
+    "gdp_nominal_2022": 2053179700000,
+    "population": 19677151,
+    "popularity_tier": 1
+  },
+  {
+    "state_name": "North Carolina",
+    "capital": "Raleigh",
+    "flag_code": "us",
+    "state_abbreviation": "NC",
+    "area_sq_miles": 53819,
+    "type": "US state",
+    "gdp_nominal_2022": 730072400000,
+    "population": 10698973,
+    "popularity_tier": 1
+  },
+  {
+    "state_name": "North Dakota",
+    "capital": "Bismarck",
+    "flag_code": "us",
+    "state_abbreviation": "ND",
+    "area_sq_miles": 70698,
+    "type": "US state",
+    "gdp_nominal_2022": 73267100000,
+    "population": 779261,
+    "popularity_tier": 1
+  },
+  {
+    "state_name": "Ohio",
+    "capital": "Columbus",
+    "flag_code": "us",
+    "state_abbreviation": "OH",
+    "area_sq_miles": 44826,
+    "type": "US state",
+    "gdp_nominal_2022": 822669700000,
+    "population": 11756058,
+    "popularity_tier": 1
+  },
+  {
+    "state_name": "Oklahoma",
+    "capital": "Oklahoma City",
+    "flag_code": "us",
+    "state_abbreviation": "OK",
+    "area_sq_miles": 69899,
+    "type": "US state",
+    "gdp_nominal_2022": 240534300000,
+    "population": 4019800,
+    "popularity_tier": 1
+  },
+  {
+    "state_name": "Oregon",
+    "capital": "Salem",
+    "flag_code": "us",
+    "state_abbreviation": "OR",
+    "area_sq_miles": 98379,
+    "type": "US state",
+    "gdp_nominal_2022": 299125500000,
+    "population": 4240137,
+    "popularity_tier": 1
+  },
+  {
+    "state_name": "Pennsylvania",
+    "capital": "Harrisburg",
+    "flag_code": "us",
+    "state_abbreviation": "PA",
+    "area_sq_miles": 46054,
+    "type": "US state",
+    "gdp_nominal_2022": 923088800000,
+    "population": 12972008,
+    "popularity_tier": 1
+  },
+  {
+    "state_name": "Rhode Island",
+    "capital": "Providence",
+    "flag_code": "us",
+    "state_abbreviation": "RI",
+    "area_sq_miles": 1545,
+    "type": "US state",
+    "gdp_nominal_2022": 71402200000,
+    "population": 1093734,
+    "popularity_tier": 1
+  },
+  {
+    "state_name": "South Carolina",
+    "capital": "Columbia",
+    "flag_code": "us",
+    "state_abbreviation": "SC",
+    "area_sq_miles": 32020,
+    "type": "US state",
+    "gdp_nominal_2022": 295880500000,
+    "population": 5282634,
+    "popularity_tier": 1
+  },
+  {
+    "state_name": "South Dakota",
+    "capital": "Pierre",
+    "flag_code": "us",
+    "state_abbreviation": "SD",
+    "area_sq_miles": 77116,
+    "type": "US state",
+    "gdp_nominal_2022": 67570700000,
+    "population": 909824,
+    "popularity_tier": 1
+  },
+  {
+    "state_name": "Tennessee",
+    "capital": "Nashville",
+    "flag_code": "us",
+    "state_abbreviation": "TN",
+    "area_sq_miles": 42144,
+    "type": "US state",
+    "gdp_nominal_2022": 475755100000,
+    "population": 7051339,
+    "popularity_tier": 1
+  },
+  {
+    "state_name": "Texas",
+    "capital": "Austin",
+    "flag_code": "us",
+    "state_abbreviation": "TX",
+    "area_sq_miles": 268596,
+    "type": "US state",
+    "gdp_nominal_2022": 2355959700000,
+    "population": 30029572,
+    "popularity_tier": 1
+  },
+  {
+    "state_name": "Utah",
+    "capital": "Salt Lake City",
+    "flag_code": "us",
+    "state_abbreviation": "UT",
+    "area_sq_miles": 84897,
+    "type": "US state",
+    "gdp_nominal_2022": 248176300000,
+    "population": 3380800,
+    "popularity_tier": 1
+  },
+  {
+    "state_name": "Vermont",
+    "capital": "Montpelier",
+    "flag_code": "us",
+    "state_abbreviation": "VT",
+    "area_sq_miles": 9616,
+    "type": "US state",
+    "gdp_nominal_2022": 40617100000,
+    "population": 647064,
+    "popularity_tier": 1
+  },
+  {
+    "state_name": "Virginia",
+    "capital": "Richmond",
+    "flag_code": "us",
+    "state_abbreviation": "VA",
+    "area_sq_miles": 42775,
+    "type": "US state",
+    "gdp_nominal_2022": 649392600000,
+    "population": 8683619,
+    "popularity_tier": 1
+  },
+  {
+    "state_name": "Washington",
+    "capital": "Olympia",
+    "flag_code": "us",
+    "state_abbreviation": "WA",
+    "area_sq_miles": 71298,
+    "type": "US state",
+    "gdp_nominal_2022": 725513500000,
+    "population": 7785786,
+    "popularity_tier": 1
+  },
+  {
+    "state_name": "West Virginia",
+    "capital": "Charleston",
+    "flag_code": "us",
+    "state_abbreviation": "WV",
+    "area_sq_miles": 24230,
+    "type": "US state",
+    "gdp_nominal_2022": 95588400000,
+    "population": 1775156,
+    "popularity_tier": 1
+  },
+  {
+    "state_name": "Wisconsin",
+    "capital": "Madison",
+    "flag_code": "us",
+    "state_abbreviation": "WI",
+    "area_sq_miles": 65496,
+    "type": "US state",
+    "gdp_nominal_2022": 401791500000,
+    "population": 5892539,
+    "popularity_tier": 1
+  },
+  {
+    "state_name": "Wyoming",
+    "capital": "Cheyenne",
+    "flag_code": "us",
+    "state_abbreviation": "WY",
+    "area_sq_miles": 97813,
+    "type": "US state",
+    "gdp_nominal_2022": 47432500000,
+    "population": 581381,
+    "popularity_tier": 1
+  },
+  {
+    "state_name": "District of Columbia",
+    "capital": "",
+    "flag_code": "us",
+    "state_abbreviation": "DC",
+    "area_sq_miles": 68,
+    "type": "US state",
+    "gdp_nominal_2022": 162314400000,
+    "population": 671803,
+    "popularity_tier": 1
+  },
+  {
+    "country_name": "Afghanistan",
+    "capital": "Kabul",
+    "flag_code": "af",
+    "type": "country",
+    "population": 41130000,
+    "area_sq_km": 652230,
+    "popularity_tier": 1
+  },
+  {
+    "country_name": "Aland Islands",
+    "capital": "Mariehamn",
+    "flag_code": "ax",
+    "type": "country",
+    "popularity_tier": 3
+  },
+  {
+    "country_name": "Albania",
+    "capital": "Tirana",
+    "flag_code": "al",
+    "type": "country",
+    "gdp_nominal_2022": 18509000000,
+    "population": 2840000,
+    "area_sq_km": 28748,
+    "popularity_tier": 2
+  },
+  {
+    "country_name": "Algeria",
+    "capital": "Algiers",
+    "flag_code": "dz",
+    "type": "country",
+    "gdp_nominal_2022": 195415000000,
+    "population": 44900000,
+    "area_sq_km": 2381740,
+    "popularity_tier": 2
+  },
+  {
+    "country_name": "American Samoa",
+    "capital": "Pago Pago",
+    "flag_code": "as",
+    "type": "country",
+    "population": 40000,
+    "area_sq_km": 224,
+    "popularity_tier": 3
+  },
+  {
+    "country_name": "Andorra",
+    "capital": "Andorra la Vella",
+    "flag_code": "ad",
+    "type": "country",
+    "gdp_nominal_2022": 3400000000,
+    "population": 80000,
+    "area_sq_km": 468,
+    "popularity_tier": 3
+  },
+  {
+    "country_name": "Angola",
+    "capital": "Luanda",
+    "flag_code": "ao",
+    "type": "country",
+    "gdp_nominal_2022": 121417000000,
+    "population": 35590000,
+    "area_sq_km": 1246700,
+    "popularity_tier": 2
+  },
+  {
+    "country_name": "Anguilla",
+    "capital": "The Valley",
+    "flag_code": "ai",
+    "type": "country",
+    "population": 20000,
+    "area_sq_km": 91,
+    "popularity_tier": 3
+  },
+  {
+    "country_name": "Antarctica",
+    "capital": "None",
+    "flag_code": "aq",
+    "type": "country",
+    "popularity_tier": 1
+  },
+  {
+    "country_name": "Antigua and Barbuda",
+    "capital": "St. John's",
+    "flag_code": "ag",
+    "type": "country",
+    "gdp_nominal_2022": 1682000000,
+    "population": 90000,
+    "area_sq_km": 442,
+    "popularity_tier": 3
+  },
+  {
+    "country_name": "Argentina",
+    "capital": "Buenos Aires",
+    "flag_code": "ar",
+    "type": "country",
+    "gdp_nominal_2022": 632241000000,
+    "population": 45510000,
+    "area_sq_km": 2780400,
+    "popularity_tier": 1
+  },
+  {
+    "country_name": "Armenia",
+    "capital": "Yerevan",
+    "flag_code": "am",
+    "type": "country",
+    "gdp_nominal_2022": 19503000000,
+    "population": 2780000,
+    "area_sq_km": 29743,
+    "popularity_tier": 2
+  },
+  {
+    "country_name": "Aruba",
+    "capital": "Oranjestad",
+    "flag_code": "aw",
+    "type": "country",
+    "gdp_nominal_2022": 3493000000,
+    "population": 110000,
+    "area_sq_km": 180,
+    "popularity_tier": 3
+  },
+  {
+    "country_name": "Ascension Island",
+    "capital": "Georgetown",
+    "flag_code": "ac",
+    "type": "country",
+    "popularity_tier": 3
+  },
+  {
+    "country_name": "Australia",
+    "capital": "Canberra",
+    "flag_code": "au",
+    "type": "country",
+    "gdp_nominal_2022": 1701890000000,
+    "population": 26180000,
+    "area_sq_km": 7741220,
+    "popularity_tier": 1
+  },
+  {
+    "country_name": "Austria",
+    "capital": "Vienna",
+    "flag_code": "at",
+    "type": "country",
+    "gdp_nominal_2022": 471685000000,
+    "population": 8940000,
+    "area_sq_km": 83871,
+    "popularity_tier": 1
+  },
+  {
+    "country_name": "Azerbaijan",
+    "capital": "Baku",
+    "flag_code": "az",
+    "type": "country",
+    "gdp_nominal_2022": 69906000000,
+    "population": 10360000,
+    "area_sq_km": 86600,
+    "popularity_tier": 2
+  },
+  {
+    "country_name": "The Bahamas",
+    "capital": "Nassau",
+    "flag_code": "bs",
+    "type": "country",
+    "gdp_nominal_2022": 13038000000,
+    "population": 410000,
+    "area_sq_km": 13880,
+    "popularity_tier": 1
+  },
+  {
+    "country_name": "Bahrain",
+    "capital": "Manama",
+    "flag_code": "bh",
+    "type": "country",
+    "gdp_nominal_2022": 44388000000,
+    "population": 1470000,
+    "area_sq_km": 760,
+    "popularity_tier": 2
+  },
+  {
+    "country_name": "Bangladesh",
+    "capital": "Dhaka",
+    "flag_code": "bd",
+    "type": "country",
+    "gdp_nominal_2022": 460201000000,
+    "population": 171190000,
+    "area_sq_km": 148460,
+    "popularity_tier": 2
+  },
+  {
+    "country_name": "Barbados",
+    "capital": "Bridgetown",
+    "flag_code": "bb",
+    "type": "country",
+    "gdp_nominal_2022": 5665000000,
+    "population": 280000,
+    "area_sq_km": 430,
+    "popularity_tier": 2
+  },
+  {
+    "country_name": "Basque Country",
+    "capital": "None",
+    "flag_code": "es-pv",
+    "type": "country",
+    "popularity_tier": 3
+  },
+  {
+    "country_name": "Belarus",
+    "capital": "Minsk",
+    "flag_code": "by",
+    "type": "country",
+    "gdp_nominal_2022": 73120000000,
+    "population": 9540000,
+    "area_sq_km": 207600,
+    "popularity_tier": 2
+  },
+  {
+    "country_name": "Belgium",
+    "capital": "Brussels",
+    "flag_code": "be",
+    "type": "country",
+    "gdp_nominal_2022": 582210000000,
+    "population": 11660000,
+    "area_sq_km": 30528,
+    "popularity_tier": 1
+  },
+  {
+    "country_name": "Belize",
+    "capital": "Belmopan",
+    "flag_code": "bz",
+    "type": "country",
+    "gdp_nominal_2022": 2950000000,
+    "population": 410000,
+    "area_sq_km": 22966,
+    "popularity_tier": 2
+  },
+  {
+    "country_name": "Benin",
+    "capital": "Porto-Novo",
+    "flag_code": "bj",
+    "type": "country",
+    "gdp_nominal_2022": 17413000000,
+    "population": 13350000,
+    "area_sq_km": 112622,
+    "popularity_tier": 3
+  },
+  {
+    "country_name": "Bermuda",
+    "capital": "Hamilton",
+    "flag_code": "bm",
+    "type": "country",
+    "population": 60000,
+    "area_sq_km": 54,
+    "popularity_tier": 2
+  },
+  {
+    "country_name": "Bhutan",
+    "capital": "Thimphu",
+    "flag_code": "bt",
+    "type": "country",
+    "gdp_nominal_2022": 2642000000,
+    "population": 780000,
+    "area_sq_km": 38394,
+    "popularity_tier": 2
+  },
+  {
+    "country_name": "Bolivia",
+    "capital": "Sucre",
+    "flag_code": "bo",
+    "type": "country",
+    "gdp_nominal_2022": 43221000000,
+    "population": 12220000,
+    "area_sq_km": 1098581,
+    "popularity_tier": 2
+  },
+  {
+    "country_name": "Bonaire, Sint Eustatius and Saba",
+    "capital": "Kralendijk",
+    "flag_code": "bq",
+    "type": "country",
+    "popularity_tier": 3
+  },
+  {
+    "country_name": "Bosnia and Herzegovina",
+    "capital": "Sarajevo",
+    "flag_code": "ba",
+    "type": "country",
+    "gdp_nominal_2022": 25484000000,
+    "population": 3230000,
+    "area_sq_km": 51197,
+    "popularity_tier": 2
+  },
+  {
+    "country_name": "Botswana",
+    "capital": "Gaborone",
+    "flag_code": "bw",
+    "type": "country",
+    "gdp_nominal_2022": 19176000000,
+    "population": 2630000,
+    "area_sq_km": 581730,
+    "popularity_tier": 2
+  },
+  {
+    "country_name": "Bouvet Island",
+    "capital": "None",
+    "flag_code": "bv",
+    "type": "country",
+    "popularity_tier": 3
+  },
+  {
+    "country_name": "Brazil",
+    "capital": "Brasília",
+    "flag_code": "br",
+    "type": "country",
+    "gdp_nominal_2022": 1924130000000,
+    "population": 215310000,
+    "area_sq_km": 8515770,
+    "popularity_tier": 1
+  },
+  {
+    "country_name": "British Indian Ocean Territory",
+    "capital": "Diego Garcia",
+    "flag_code": "io",
+    "type": "country",
+    "popularity_tier": 3
+  },
+  {
+    "country_name": "Brunei",
+    "capital": "Bandar Seri Begawan",
+    "flag_code": "bn",
+    "type": "country",
+    "gdp_nominal_2022": 16639000000,
+    "population": 450000,
+    "area_sq_km": 5765,
+    "popularity_tier": 3
+  },
+  {
+    "country_name": "Bulgaria",
+    "capital": "Sofia",
+    "flag_code": "bg",
+    "type": "country",
+    "gdp_nominal_2022": 89115000000,
+    "population": 6780000,
+    "area_sq_km": 110879,
+    "popularity_tier": 2
+  },
+  {
+    "country_name": "Burkina Faso",
+    "capital": "Ouagadougou",
+    "flag_code": "bf",
+    "type": "country",
+    "gdp_nominal_2022": 19568000000,
+    "population": 22670000,
+    "area_sq_km": 274200,
+    "popularity_tier": 3
+  },
+  {
+    "country_name": "Burundi",
+    "capital": "Bujumbura",
+    "flag_code": "bi",
+    "type": "country",
+    "gdp_nominal_2022": 3894000000,
+    "population": 12890000,
+    "area_sq_km": 27830,
+    "popularity_tier": 3
+  },
+  {
+    "country_name": "Cabo Verde",
+    "capital": "Praia",
+    "flag_code": "cv",
+    "type": "country",
+    "gdp_nominal_2022": 2224000000,
+    "population": 590000,
+    "area_sq_km": 4033,
+    "popularity_tier": 3
+  },
+  {
+    "country_name": "Cambodia",
+    "capital": "Phnom Penh",
+    "flag_code": "kh",
+    "type": "country",
+    "gdp_nominal_2022": 28544000000,
+    "population": 16770000,
+    "area_sq_km": 181035,
+    "popularity_tier": 2
+  },
+  {
+    "country_name": "Cameroon",
+    "capital": "Yaoundé",
+    "flag_code": "cm",
+    "type": "country",
+    "gdp_nominal_2022": 43716000000,
+    "population": 27910000,
+    "area_sq_km": 475440,
+    "popularity_tier": 2
+  },
+  {
+    "country_name": "Canada",
+    "capital": "Ottawa",
+    "flag_code": "ca",
+    "type": "country",
+    "gdp_nominal_2022": 2139840000000,
+    "population": 38450000,
+    "area_sq_km": 9984670,
+    "popularity_tier": 1
+  },
+  {
+    "country_name": "Canary Islands",
+    "capital": "None",
+    "flag_code": "ic",
+    "type": "country",
+    "popularity_tier": 3
+  },
+  {
+    "country_name": "Catalonia",
+    "capital": "None",
+    "flag_code": "es-ct",
+    "type": "country",
+    "popularity_tier": 3
+  },
+  {
+    "country_name": "Cayman Islands",
+    "capital": "George Town",
+    "flag_code": "ky",
+    "type": "country",
+    "population": 70000,
+    "area_sq_km": 264,
+    "popularity_tier": 2
+  },
+  {
+    "country_name": "Central African Republic",
+    "capital": "Bangui",
+    "flag_code": "cf",
+    "type": "country",
+    "gdp_nominal_2022": 2462000000,
+    "population": 5580000,
+    "area_sq_km": 622984,
+    "popularity_tier": 2
+  },
+  {
+    "country_name": "Central European Free Trade Agreement",
+    "capital": "None",
+    "flag_code": "cefta",
+    "type": "country",
+    "popularity_tier": 3
+  },
+  {
+    "country_name": "Chad",
+    "capital": "N'Djamena",
+    "flag_code": "td",
+    "type": "country",
+    "gdp_nominal_2022": 11909000000,
+    "population": 17720000,
+    "area_sq_km": 1284000,
+    "popularity_tier": 2
+  },
+  {
+    "country_name": "Chile",
+    "capital": "Santiago",
+    "flag_code": "cl",
+    "type": "country",
+    "gdp_nominal_2022": 300729000000,
+    "population": 19600000,
+    "area_sq_km": 756102,
+    "popularity_tier": 2
+  },
+  {
+    "country_name": "China",
+    "capital": "Beijing",
+    "flag_code": "cn",
+    "type": "country",
+    "gdp_nominal_2022": 18100040000000,
+    "population": 1425890000,
+    "area_sq_km": 9596960,
+    "popularity_tier": 1
+  },
+  {
+    "country_name": "Christmas Island",
+    "capital": "Flying Fish Cove",
+    "flag_code": "cx",
+    "type": "country",
+    "area_sq_km": 135,
+    "popularity_tier": 3
+  },
+  {
+    "country_name": "Clipperton Island",
+    "capital": "None",
+    "flag_code": "cp",
+    "type": "country",
+    "popularity_tier": 3
+  },
+  {
+    "country_name": "Cocos (Keeling) Islands",
+    "capital": "West Island",
+    "flag_code": "cc",
+    "type": "country",
+    "area_sq_km": 14,
+    "popularity_tier": 3
+  },
+  {
+    "country_name": "Colombia",
+    "capital": "Bogotá",
+    "flag_code": "co",
+    "type": "country",
+    "gdp_nominal_2022": 343939000000,
+    "population": 51870000,
+    "area_sq_km": 1138910,
+    "popularity_tier": 1
+  },
+  {
+    "country_name": "Comoros",
+    "capital": "Moroni",
+    "flag_code": "km",
+    "type": "country",
+    "gdp_nominal_2022": 1233000000,
+    "population": 840000,
+    "area_sq_km": 2235,
+    "popularity_tier": 3
+  },
+  {
+    "country_name": "Cook Islands",
+    "capital": "Avarua",
+    "flag_code": "ck",
+    "type": "country",
+    "population": 20000,
+    "area_sq_km": 236,
+    "popularity_tier": 3
+  },
+  {
+    "country_name": "Costa Rica",
+    "capital": "San José",
+    "flag_code": "cr",
+    "type": "country",
+    "gdp_nominal_2022": 68385000000,
+    "population": 5180000,
+    "area_sq_km": 51100,
+    "popularity_tier": 1
+  },
+  {
+    "country_name": "Croatia",
+    "capital": "Zagreb",
+    "flag_code": "hr",
+    "type": "country",
+    "gdp_nominal_2022": 71019000000,
+    "population": 4030000,
+    "area_sq_km": 56594,
+    "popularity_tier": 2
+  },
+  {
+    "country_name": "Cuba",
+    "capital": "Havana",
+    "flag_code": "cu",
+    "type": "country",
+    "population": 11210000,
+    "area_sq_km": 110860,
+    "popularity_tier": 1
+  },
+  {
+    "country_name": "Curaçao",
+    "capital": "Willemstad",
+    "flag_code": "cw",
+    "type": "country",
+    "population": 190000,
+    "popularity_tier": 3
+  },
+  {
+    "country_name": "Cyprus",
+    "capital": "Nicosia",
+    "flag_code": "cy",
+    "type": "country",
+    "gdp_nominal_2022": 28467000000,
+    "population": 1250000,
+    "area_sq_km": 9251,
+    "popularity_tier": 2
+  },
+  {
+    "country_name": "Czechia",
+    "capital": "Prague",
+    "flag_code": "cz",
+    "type": "country",
+    "gdp_nominal_2022": 290397000000,
+    "population": 10490000,
+    "area_sq_km": 78867,
+    "popularity_tier": 2
+  },
+  {
+    "country_name": "Côte d'Ivoire",
+    "capital": "Yamoussoukro",
+    "flag_code": "ci",
+    "type": "country",
+    "gdp_nominal_2022": 70046000000,
+    "population": 28160000,
+    "area_sq_km": 322463,
+    "popularity_tier": 2
+  },
+  {
+    "country_name": "Democratic Republic of the Congo",
+    "capital": "Kinshasa",
+    "flag_code": "cd",
+    "type": "country",
+    "gdp_nominal_2022": 62859000000,
+    "population": 99010000,
+    "area_sq_km": 2344858,
+    "popularity_tier": 2
+  },
+  {
+    "country_name": "Denmark",
+    "capital": "Copenhagen",
+    "flag_code": "dk",
+    "type": "country",
+    "gdp_nominal_2022": 390677000000,
+    "population": 5880000,
+    "area_sq_km": 43094,
+    "popularity_tier": 1
+  },
+  {
+    "country_name": "Diego Garcia",
+    "capital": "None",
+    "flag_code": "dg",
+    "type": "country",
+    "popularity_tier": 3
+  },
+  {
+    "country_name": "Djibouti",
+    "capital": "Djibouti",
+    "flag_code": "dj",
+    "type": "country",
+    "gdp_nominal_2022": 3646000000,
+    "population": 1120000,
+    "area_sq_km": 23200,
+    "popularity_tier": 2
+  },
+  {
+    "country_name": "Dominica",
+    "capital": "Roseau",
+    "flag_code": "dm",
+    "type": "country",
+    "gdp_nominal_2022": 612000000,
+    "population": 70000,
+    "area_sq_km": 751,
+    "popularity_tier": 2
+  },
+  {
+    "country_name": "Dominican Republic",
+    "capital": "Santo Domingo",
+    "flag_code": "do",
+    "type": "country",
+    "gdp_nominal_2022": 112502000000,
+    "population": 11230000,
+    "area_sq_km": 48670,
+    "popularity_tier": 1
+  },
+  {
+    "country_name": "East African Community",
+    "capital": "None",
+    "flag_code": "eac",
+    "type": "country",
+    "popularity_tier": 3
+  },
+  {
+    "country_name": "Ecuador",
+    "capital": "Quito",
+    "flag_code": "ec",
+    "type": "country",
+    "gdp_nominal_2022": 116360000000,
+    "population": 18000000,
+    "area_sq_km": 283561,
+    "popularity_tier": 1
+  },
+  {
+    "country_name": "Egypt",
+    "capital": "Cairo",
+    "flag_code": "eg",
+    "type": "country",
+    "gdp_nominal_2022": 475231000000,
+    "population": 110990000,
+    "area_sq_km": 1001450,
+    "popularity_tier": 1
+  },
+  {
+    "country_name": "El Salvador",
+    "capital": "San Salvador",
+    "flag_code": "sv",
+    "type": "country",
+    "gdp_nominal_2022": 31605000000,
+    "population": 6340000,
+    "area_sq_km": 21041,
+    "popularity_tier": 2
+  },
+  {
+    "country_name": "England",
+    "capital": "London",
+    "flag_code": "gb-eng",
+    "type": "country",
+    "popularity_tier": 1
+  },
+  {
+    "country_name": "Equatorial Guinea",
+    "capital": "Malabo",
+    "flag_code": "gq",
+    "type": "country",
+    "gdp_nominal_2022": 16451000000,
+    "population": 1670000,
+    "area_sq_km": 28051,
+    "popularity_tier": 3
+  },
+  {
+    "country_name": "Eritrea",
+    "capital": "Asmara",
+    "flag_code": "er",
+    "type": "country",
+    "gdp_nominal_2022": 2383000000,
+    "population": 3680000,
+    "area_sq_km": 117600,
+    "popularity_tier": 2
+  },
+  {
+    "country_name": "Estonia",
+    "capital": "Tallinn",
+    "flag_code": "ee",
+    "type": "country",
+    "gdp_nominal_2022": 38131000000,
+    "population": 1330000,
+    "area_sq_km": 45228,
+    "popularity_tier": 2
+  },
+  {
+    "country_name": "Eswatini",
+    "capital": "Lobamba, Mbabane",
+    "flag_code": "sz",
+    "type": "country",
+    "gdp_nominal_2022": 4462000000,
+    "population": 1200000,
+    "area_sq_km": 17364,
+    "popularity_tier": 2
+  },
+  {
+    "country_name": "Ethiopia",
+    "capital": "Addis Ababa",
+    "flag_code": "et",
+    "type": "country",
+    "gdp_nominal_2022": 120369000000,
+    "population": 123380000,
+    "area_sq_km": 1104300,
+    "popularity_tier": 1
+  },
+  {
+    "country_name": "Europe",
+    "capital": "None",
+    "flag_code": "eu",
+    "type": "country",
+    "population": 743560000,
+    "popularity_tier": 1
+  },
+  {
+    "country_name": "Falkland Islands",
+    "capital": "Stanley",
+    "flag_code": "fk",
+    "type": "country",
+    "population": 0,
+    "area_sq_km": 12173,
+    "popularity_tier": 3
+  },
+  {
+    "country_name": "Faroe Islands",
+    "capital": "Tórshavn",
+    "flag_code": "fo",
+    "type": "country",
+    "population": 50000,
+    "area_sq_km": 1393,
+    "popularity_tier": 3
+  },
+  {
+    "country_name": "Micronesia",
+    "capital": "Palikir",
+    "flag_code": "fm",
+    "type": "country",
+    "gdp_nominal_2022": 423000000,
+    "population": 110000,
+    "area_sq_km": 702,
+    "popularity_tier": 3
+  },
+  {
+    "country_name": "Fiji",
+    "capital": "Suva",
+    "flag_code": "fj",
+    "type": "country",
+    "gdp_nominal_2022": 4837000000,
+    "population": 930000,
+    "area_sq_km": 18274,
+    "popularity_tier": 2
+  },
+  {
+    "country_name": "Finland",
+    "capital": "Helsinki",
+    "flag_code": "fi",
+    "type": "country",
+    "gdp_nominal_2022": 281047000000,
+    "population": 5540000,
+    "area_sq_km": 338145,
+    "popularity_tier": 1
+  },
+  {
+    "country_name": "France",
+    "capital": "Paris",
+    "flag_code": "fr",
+    "type": "country",
+    "gdp_nominal_2022": 2784020000000,
+    "population": 64629999,
+    "area_sq_km": 643801,
+    "popularity_tier": 1
+  },
+  {
+    "country_name": "French Guiana",
+    "capital": "Cayenne",
+    "flag_code": "gf",
+    "type": "country",
+    "population": 300000,
+    "area_sq_km": 91000,
+    "popularity_tier": 3
+  },
+  {
+    "country_name": "French Polynesia",
+    "capital": "Papeete",
+    "flag_code": "pf",
+    "type": "country",
+    "population": 310000,
+    "area_sq_km": 4167,
+    "popularity_tier": 3
+  },
+  {
+    "country_name": "French Southern Territories",
+    "capital": "Saint-Pierre, Réunion",
+    "flag_code": "tf",
+    "type": "country",
+    "popularity_tier": 3
+  },
+  {
+    "country_name": "Gabon",
+    "capital": "Libreville",
+    "flag_code": "ga",
+    "type": "country",
+    "gdp_nominal_2022": 21931000000,
+    "population": 2390000,
+    "area_sq_km": 267667,
+    "popularity_tier": 3
+  },
+  {
+    "country_name": "Galicia",
+    "capital": "None",
+    "flag_code": "es-ga",
+    "type": "country",
+    "popularity_tier": 3
+  },
+  {
+    "country_name": "The Gambia",
+    "capital": "Banjul",
+    "flag_code": "gm",
+    "type": "country",
+    "gdp_nominal_2022": 2133000000,
+    "population": 2710000,
+    "area_sq_km": 11300,
+    "popularity_tier": 2
+  },
+  {
+    "country_name": "Germany",
+    "capital": "Berlin",
+    "flag_code": "de",
+    "type": "country",
+    "gdp_nominal_2022": 4075400000000,
+    "population": 83370000,
+    "area_sq_km": 357022,
+    "popularity_tier": 1
+  },
+  {
+    "country_name": "Ghana",
+    "capital": "Accra",
+    "flag_code": "gh",
+    "type": "country",
+    "gdp_nominal_2022": 72839000000,
+    "population": 33479999,
+    "area_sq_km": 238533,
+    "popularity_tier": 2
+  },
+  {
+    "country_name": "Gibraltar",
+    "capital": "Gibraltar",
+    "flag_code": "gi",
+    "type": "country",
+    "population": 30000,
+    "area_sq_km": 6,
+    "popularity_tier": 2
+  },
+  {
+    "country_name": "Greece",
+    "capital": "Athens",
+    "flag_code": "gr",
+    "type": "country",
+    "gdp_nominal_2022": 219237000000,
+    "population": 10390000,
+    "area_sq_km": 131957,
+    "popularity_tier": 1
+  },
+  {
+    "country_name": "Greenland",
+    "capital": "Nuuk",
+    "flag_code": "gl",
+    "type": "country",
+    "population": 60000,
+    "area_sq_km": 2166086,
+    "popularity_tier": 1
+  },
+  {
+    "country_name": "Grenada",
+    "capital": "St. George's",
+    "flag_code": "gd",
+    "type": "country",
+    "gdp_nominal_2022": 1193000000,
+    "population": 130000,
+    "area_sq_km": 344,
+    "popularity_tier": 2
+  },
+  {
+    "country_name": "Guadeloupe",
+    "capital": "Basse-Terre",
+    "flag_code": "gp",
+    "type": "country",
+    "population": 400000,
+    "area_sq_km": 1780,
+    "popularity_tier": 3
+  },
+  {
+    "country_name": "Guam",
+    "capital": "Hagåtña",
+    "flag_code": "gu",
+    "type": "country",
+    "population": 170000,
+    "area_sq_km": 544,
+    "popularity_tier": 2
+  },
+  {
+    "country_name": "Guatemala",
+    "capital": "Guatemala City",
+    "flag_code": "gt",
+    "type": "country",
+    "gdp_nominal_2022": 93655000000,
+    "population": 17840000,
+    "area_sq_km": 108889,
+    "popularity_tier": 1
+  },
+  {
+    "country_name": "Guernsey",
+    "capital": "Saint Peter Port",
+    "flag_code": "gg",
+    "type": "country",
+    "area_sq_km": 78,
+    "popularity_tier": 3
+  },
+  {
+    "country_name": "Guinea",
+    "capital": "Conakry",
+    "flag_code": "gn",
+    "type": "country",
+    "gdp_nominal_2022": 20469000000,
+    "population": 13860000,
+    "area_sq_km": 245857,
+    "popularity_tier": 2
+  },
+  {
+    "country_name": "Guinea-Bissau",
+    "capital": "Bissau",
+    "flag_code": "gw",
+    "type": "country",
+    "gdp_nominal_2022": 1705000000,
+    "population": 2110000,
+    "area_sq_km": 36125,
+    "popularity_tier": 3
+  },
+  {
+    "country_name": "Guyana",
+    "capital": "Georgetown",
+    "flag_code": "gy",
+    "type": "country",
+    "gdp_nominal_2022": 14521000000,
+    "population": 810000,
+    "area_sq_km": 214969,
+    "popularity_tier": 2
+  },
+  {
+    "country_name": "Haiti",
+    "capital": "Port-au-Prince",
+    "flag_code": "ht",
+    "type": "country",
+    "gdp_nominal_2022": 20535000000,
+    "population": 11590000,
+    "area_sq_km": 27750,
+    "popularity_tier": 1
+  },
+  {
+    "country_name": "Heard Island and McDonald Islands",
+    "capital": "None",
+    "flag_code": "hm",
+    "type": "country",
+    "popularity_tier": 3
+  },
+  {
+    "country_name": "Holy See",
+    "capital": "Vatican City",
+    "flag_code": "va",
+    "type": "country",
+    "popularity_tier": 2
+  },
+  {
+    "country_name": "Honduras",
+    "capital": "Tegucigalpa",
+    "flag_code": "hn",
+    "type": "country",
+    "gdp_nominal_2022": 31521000000,
+    "population": 10430000,
+    "area_sq_km": 112090,
+    "popularity_tier": 2
+  },
+  {
+    "country_name": "Hong Kong",
+    "capital": "Hong Kong",
+    "flag_code": "hk",
+    "type": "country",
+    "gdp_nominal_2022": 360983000000,
+    "population": 7490000,
+    "area_sq_km": 1108,
+    "popularity_tier": 1
+  },
+  {
+    "country_name": "Hungary",
+    "capital": "Budapest",
+    "flag_code": "hu",
+    "type": "country",
+    "gdp_nominal_2022": 168294000000,
+    "population": 9970000,
+    "area_sq_km": 93028,
+    "popularity_tier": 1
+  },
+  {
+    "country_name": "Iceland",
+    "capital": "Reykjavik",
+    "flag_code": "is",
+    "type": "country",
+    "gdp_nominal_2022": 27842000000,
+    "population": 370000,
+    "area_sq_km": 103000,
+    "popularity_tier": 1
+  },
+  {
+    "country_name": "India",
+    "capital": "New Delhi",
+    "flag_code": "in",
+    "type": "country",
+    "gdp_nominal_2022": 3386400000000,
+    "population": 1417170000,
+    "area_sq_km": 3287263,
+    "popularity_tier": 1
+  },
+  {
+    "country_name": "Indonesia",
+    "capital": "Jakarta",
+    "flag_code": "id",
+    "type": "country",
+    "gdp_nominal_2022": 1318810000000,
+    "population": 275500000,
+    "area_sq_km": 1904569,
+    "popularity_tier": 1
+  },
+  {
+    "country_name": "Iran",
+    "capital": "Tehran",
+    "flag_code": "ir",
+    "type": "country",
+    "gdp_nominal_2022": 352213000000,
+    "population": 88550000,
+    "area_sq_km": 1648195,
+    "popularity_tier": 1
+  },
+  {
+    "country_name": "Iraq",
+    "capital": "Baghdad",
+    "flag_code": "iq",
+    "type": "country",
+    "gdp_nominal_2022": 270363999999,
+    "population": 44500000,
+    "area_sq_km": 438317,
+    "popularity_tier": 1
+  },
+  {
+    "country_name": "Ireland",
+    "capital": "Dublin",
+    "flag_code": "ie",
+    "type": "country",
+    "gdp_nominal_2022": 529660999999,
+    "population": 5020000,
+    "area_sq_km": 70273,
+    "popularity_tier": 1
+  },
+  {
+    "country_name": "Isle of Man",
+    "capital": "Douglas",
+    "flag_code": "im",
+    "type": "country",
+    "population": 80000,
+    "area_sq_km": 572,
+    "popularity_tier": 3
+  },
+  {
+    "country_name": "Israel",
+    "capital": "Jerusalem",
+    "flag_code": "il",
+    "type": "country",
+    "gdp_nominal_2022": 522530000000,
+    "population": 9040000,
+    "area_sq_km": 21937,
+    "popularity_tier": 1
+  },
+  {
+    "country_name": "Italy",
+    "capital": "Rome",
+    "flag_code": "it",
+    "type": "country",
+    "gdp_nominal_2022": 2012010000000,
+    "population": 59040000,
+    "area_sq_km": 301340,
+    "popularity_tier": 1
+  },
+  {
+    "country_name": "Jamaica",
+    "capital": "Kingston",
+    "flag_code": "jm",
+    "type": "country",
+    "gdp_nominal_2022": 16039000000,
+    "population": 2830000,
+    "area_sq_km": 10991,
+    "popularity_tier": 1
+  },
+  {
+    "country_name": "Japan",
+    "capital": "Tokyo",
+    "flag_code": "jp",
+    "type": "country",
+    "gdp_nominal_2022": 4233540000000,
+    "population": 123950000,
+    "area_sq_km": 377915,
+    "popularity_tier": 1
+  },
+  {
+    "country_name": "Jersey",
+    "capital": "Saint Helier",
+    "flag_code": "je",
+    "type": "country",
+    "area_sq_km": 116,
+    "popularity_tier": 3
+  },
+  {
+    "country_name": "Jordan",
+    "capital": "Amman",
+    "flag_code": "jo",
+    "type": "country",
+    "gdp_nominal_2022": 48836000000,
+    "population": 11290000,
+    "area_sq_km": 89342,
+    "popularity_tier": 2
+  },
+  {
+    "country_name": "Kazakhstan",
+    "capital": "Astana",
+    "flag_code": "kz",
+    "type": "country",
+    "gdp_nominal_2022": 225784000000,
+    "population": 19400000,
+    "area_sq_km": 2724900,
+    "popularity_tier": 2
+  },
+  {
+    "country_name": "Kenya",
+    "capital": "Nairobi",
+    "flag_code": "ke",
+    "type": "country",
+    "gdp_nominal_2022": 115989000000,
+    "population": 54030000,
+    "area_sq_km": 580367,
+    "popularity_tier": 1
+  },
+  {
+    "country_name": "Kiribati",
+    "capital": "South Tarawa",
+    "flag_code": "ki",
+    "type": "country",
+    "gdp_nominal_2022": 224000000,
+    "population": 130000,
+    "area_sq_km": 811,
+    "popularity_tier": 3
+  },
+  {
+    "country_name": "Kosovo",
+    "capital": "Pristina",
+    "flag_code": "xk",
+    "type": "country",
+    "gdp_nominal_2022": 9363000000,
+    "popularity_tier": 3
+  },
+  {
+    "country_name": "Kuwait",
+    "capital": "Kuwait City",
+    "flag_code": "kw",
+    "type": "country",
+    "gdp_nominal_2022": 184558000000,
+    "population": 4270000,
+    "area_sq_km": 17818,
+    "popularity_tier": 2
+  },
+  {
+    "country_name": "Kyrgyzstan",
+    "capital": "Bishkek",
+    "flag_code": "kg",
+    "type": "country",
+    "gdp_nominal_2022": 11052000000,
+    "population": 6630000,
+    "area_sq_km": 199951,
+    "popularity_tier": 3
+  },
+  {
+    "country_name": "Laos",
+    "capital": "Vientiane",
+    "flag_code": "la",
+    "type": "country",
+    "gdp_nominal_2022": 15304000000,
+    "population": 7530000,
+    "area_sq_km": 236800,
+    "popularity_tier": 2
+  },
+  {
+    "country_name": "Latvia",
+    "capital": "Riga",
+    "flag_code": "lv",
+    "type": "country",
+    "gdp_nominal_2022": 42225000000,
+    "population": 1850000,
+    "area_sq_km": 64589,
+    "popularity_tier": 2
+  },
+  {
+    "country_name": "League of Arab States",
+    "capital": "None",
+    "flag_code": "arab",
+    "type": "country",
+    "popularity_tier": 3
+  },
+  {
+    "country_name": "Lebanon",
+    "capital": "Beirut",
+    "flag_code": "lb",
+    "type": "country",
+    "population": 5490000,
+    "area_sq_km": 10400,
+    "popularity_tier": 2
+  },
+  {
+    "country_name": "Lesotho",
+    "capital": "Maseru",
+    "flag_code": "ls",
+    "type": "country",
+    "gdp_nominal_2022": 2480000000,
+    "population": 2310000,
+    "area_sq_km": 30355,
+    "popularity_tier": 3
+  },
+  {
+    "country_name": "Liberia",
+    "capital": "Monrovia",
+    "flag_code": "lr",
+    "type": "country",
+    "gdp_nominal_2022": 3974000000,
+    "population": 5300000,
+    "area_sq_km": 111369,
+    "popularity_tier": 2
+  },
+  {
+    "country_name": "Libya",
+    "capital": "Tripoli",
+    "flag_code": "ly",
+    "type": "country",
+    "gdp_nominal_2022": 44066000000,
+    "population": 6810000,
+    "area_sq_km": 1759540,
+    "popularity_tier": 2
+  },
+  {
+    "country_name": "Liechtenstein",
+    "capital": "Vaduz",
+    "flag_code": "li",
+    "type": "country",
+    "population": 40000,
+    "area_sq_km": 160,
+    "popularity_tier": 2
+  },
+  {
+    "country_name": "Lithuania",
+    "capital": "Vilnius",
+    "flag_code": "lt",
+    "type": "country",
+    "gdp_nominal_2022": 70523000000,
+    "population": 2750000,
+    "area_sq_km": 65300,
+    "popularity_tier": 2
+  },
+  {
+    "country_name": "Luxembourg",
+    "capital": "Luxembourg City",
+    "flag_code": "lu",
+    "type": "country",
+    "gdp_nominal_2022": 82340000000,
+    "population": 650000,
+    "area_sq_km": 2586,
+    "popularity_tier": 2
+  },
+  {
+    "country_name": "Macau",
+    "capital": "Macau",
+    "flag_code": "mo",
+    "type": "country",
+    "gdp_nominal_2022": 21979000000,
+    "population": 700000,
+    "area_sq_km": 28,
+    "popularity_tier": 2
+  },
+  {
+    "country_name": "Madagascar",
+    "capital": "Antananarivo",
+    "flag_code": "mg",
+    "type": "country",
+    "gdp_nominal_2022": 15233000000,
+    "population": 29610000,
+    "area_sq_km": 587041,
+    "popularity_tier": 2
+  },
+  {
+    "country_name": "Malawi",
+    "capital": "Lilongwe",
+    "flag_code": "mw",
+    "type": "country",
+    "gdp_nominal_2022": 12512000000,
+    "population": 20410000,
+    "area_sq_km": 118484,
+    "popularity_tier": 3
+  },
+  {
+    "country_name": "Malaysia",
+    "capital": "Kuala Lumpur",
+    "flag_code": "my",
+    "type": "country",
+    "gdp_nominal_2022": 407923000000,
+    "population": 33940000,
+    "area_sq_km": 329847,
+    "popularity_tier": 2
+  },
+  {
+    "country_name": "Maldives",
+    "capital": "Malé",
+    "flag_code": "mv",
+    "type": "country",
+    "gdp_nominal_2022": 6207000000,
+    "population": 520000,
+    "area_sq_km": 298,
+    "popularity_tier": 2
+  },
+  {
+    "country_name": "Mali",
+    "capital": "Bamako",
+    "flag_code": "ml",
+    "type": "country",
+    "gdp_nominal_2022": 19048000000,
+    "population": 22590000,
+    "area_sq_km": 1240192,
+    "popularity_tier": 2
+  },
+  {
+    "country_name": "Malta",
+    "capital": "Valletta",
+    "flag_code": "mt",
+    "type": "country",
+    "gdp_nominal_2022": 17779000000,
+    "population": 530000,
+    "area_sq_km": 316,
+    "popularity_tier": 2
+  },
+  {
+    "country_name": "Marshall Islands",
+    "capital": "Majuro",
+    "flag_code": "mh",
+    "type": "country",
+    "gdp_nominal_2022": 276000000,
+    "population": 40000,
+    "area_sq_km": 181,
+    "popularity_tier": 3
+  },
+  {
+    "country_name": "Martinique",
+    "capital": "Fort-de-France",
+    "flag_code": "mq",
+    "type": "country",
+    "population": 370000,
+    "area_sq_km": 1100,
+    "popularity_tier": 3
+  },
+  {
+    "country_name": "Mauritania",
+    "capital": "Nouakchott",
+    "flag_code": "mr",
+    "type": "country",
+    "gdp_nominal_2022": 10321000000,
+    "population": 4740000,
+    "area_sq_km": 1030700,
+    "popularity_tier": 3
+  },
+  {
+    "country_name": "Mauritius",
+    "capital": "Port Louis",
+    "flag_code": "mu",
+    "type": "country",
+    "gdp_nominal_2022": 12772000000,
+    "population": 1300000,
+    "area_sq_km": 2040,
+    "popularity_tier": 3
+  },
+  {
+    "country_name": "Mayotte",
+    "capital": "Mamoudzou",
+    "flag_code": "yt",
+    "type": "country",
+    "population": 330000,
+    "area_sq_km": 374,
+    "popularity_tier": 3
+  },
+  {
+    "country_name": "Mexico",
+    "capital": "Mexico City",
+    "flag_code": "mx",
+    "type": "country",
+    "gdp_nominal_2022": 1414100000000,
+    "population": 127500000,
+    "area_sq_km": 1964375,
+    "popularity_tier": 1
+  },
+  {
+    "country_name": "Moldova",
+    "capital": "Chișinău",
+    "flag_code": "md",
+    "type": "country",
+    "gdp_nominal_2022": 14410000000,
+    "population": 3270000,
+    "area_sq_km": 33851,
+    "popularity_tier": 2
+  },
+  {
+    "country_name": "Monaco",
+    "capital": "Monaco",
+    "flag_code": "mc",
+    "type": "country",
+    "population": 40000,
+    "area_sq_km": 2,
+    "popularity_tier": 2
+  },
+  {
+    "country_name": "Mongolia",
+    "capital": "Ulaanbaatar",
+    "flag_code": "mn",
+    "type": "country",
+    "gdp_nominal_2022": 16832999999,
+    "population": 3400000,
+    "area_sq_km": 1564116,
+    "popularity_tier": 2
+  },
+  {
+    "country_name": "Montenegro",
+    "capital": "Podgorica",
+    "flag_code": "me",
+    "type": "country",
+    "gdp_nominal_2022": 6104000000,
+    "population": 630000,
+    "area_sq_km": 13812,
+    "popularity_tier": 2
+  },
+  {
+    "country_name": "Montserrat",
+    "capital": "Little Bay, Brades, Plymouth",
+    "flag_code": "ms",
+    "type": "country",
+    "population": 0,
+    "area_sq_km": 102,
+    "popularity_tier": 3
+  },
+  {
+    "country_name": "Morocco",
+    "capital": "Rabat",
+    "flag_code": "ma",
+    "type": "country",
+    "gdp_nominal_2022": 138052000000,
+    "population": 37460000,
+    "area_sq_km": 446550,
+    "popularity_tier": 1
+  },
+  {
+    "country_name": "Mozambique",
+    "capital": "Maputo",
+    "flag_code": "mz",
+    "type": "country",
+    "gdp_nominal_2022": 17940000000,
+    "population": 32970000,
+    "area_sq_km": 799380,
+    "popularity_tier": 3
+  },
+  {
+    "country_name": "Myanmar",
+    "capital": "Naypyidaw",
+    "flag_code": "mm",
+    "type": "country",
+    "gdp_nominal_2022": 56757000000,
+    "population": 54180000,
+    "area_sq_km": 676578,
+    "popularity_tier": 2
+  },
+  {
+    "country_name": "Namibia",
+    "capital": "Windhoek",
+    "flag_code": "na",
+    "type": "country",
+    "gdp_nominal_2022": 12345000000,
+    "population": 2570000,
+    "area_sq_km": 824292,
+    "popularity_tier": 3
+  },
+  {
+    "country_name": "Nauru",
+    "capital": "Yaren District",
+    "flag_code": "nr",
+    "type": "country",
+    "gdp_nominal_2022": 151000000,
+    "population": 10000,
+    "area_sq_km": 21,
+    "popularity_tier": 3
+  },
+  {
+    "country_name": "Nepal",
+    "capital": "Kathmandu",
+    "flag_code": "np",
+    "type": "country",
+    "gdp_nominal_2022": 40149000000,
+    "population": 30550000,
+    "area_sq_km": 147181,
+    "popularity_tier": 2
+  },
+  {
+    "country_name": "Netherlands",
+    "capital": "Amsterdam",
+    "flag_code": "nl",
+    "type": "country",
+    "gdp_nominal_2022": 993681000000,
+    "population": 17560000,
+    "area_sq_km": 41543,
+    "popularity_tier": 1
+  },
+  {
+    "country_name": "New Caledonia",
+    "capital": "Nouméa",
+    "flag_code": "nc",
+    "type": "country",
+    "population": 290000,
+    "area_sq_km": 18575,
+    "popularity_tier": 3
+  },
+  {
+    "country_name": "New Zealand",
+    "capital": "Wellington",
+    "flag_code": "nz",
+    "type": "country",
+    "gdp_nominal_2022": 241938000000,
+    "population": 5190000,
+    "area_sq_km": 268838,
+    "popularity_tier": 1
+  },
+  {
+    "country_name": "Nicaragua",
+    "capital": "Managua",
+    "flag_code": "ni",
+    "type": "country",
+    "gdp_nominal_2022": 15770000000,
+    "population": 6950000,
+    "area_sq_km": 130370,
+    "popularity_tier": 1
+  },
+  {
+    "country_name": "Niger",
+    "capital": "Niamey",
+    "flag_code": "ne",
+    "type": "country",
+    "gdp_nominal_2022": 15222000000,
+    "population": 26210000,
+    "area_sq_km": 1267000,
+    "popularity_tier": 2
+  },
+  {
+    "country_name": "Nigeria",
+    "capital": "Abuja",
+    "flag_code": "ng",
+    "type": "country",
+    "gdp_nominal_2022": 477376000000,
+    "population": 218540000,
+    "area_sq_km": 923768,
+    "popularity_tier": 1
+  },
+  {
+    "country_name": "Niue",
+    "capital": "Alofi",
+    "flag_code": "nu",
+    "type": "country",
+    "population": 0,
+    "area_sq_km": 260,
+    "popularity_tier": 3
+  },
+  {
+    "country_name": "Norfolk Island",
+    "capital": "Kingston",
+    "flag_code": "nf",
+    "type": "country",
+    "area_sq_km": 36,
+    "popularity_tier": 3
+  },
+  {
+    "country_name": "North Korea",
+    "capital": "Pyongyang",
+    "flag_code": "kp",
+    "type": "country",
+    "population": 26070000,
+    "area_sq_km": 120538,
+    "popularity_tier": 1
+  },
+  {
+    "country_name": "North Macedonia",
+    "capital": "Skopje",
+    "flag_code": "mk",
+    "type": "country",
+    "gdp_nominal_2022": 13671000000,
+    "population": 2089999,
+    "area_sq_km": 25713,
+    "popularity_tier": 2
+  },
+  {
+    "country_name": "Northern Ireland",
+    "capital": "Belfast",
+    "flag_code": "gb-nir",
+    "type": "country",
+    "popularity_tier": 2
+  },
+  {
+    "country_name": "Northern Mariana Islands",
+    "capital": "Saipan",
+    "flag_code": "mp",
+    "type": "country",
+    "population": 50000,
+    "area_sq_km": 464,
+    "popularity_tier": 3
+  },
+  {
+    "country_name": "Norway",
+    "capital": "Oslo",
+    "flag_code": "no",
+    "type": "country",
+    "gdp_nominal_2022": 579267000000,
+    "population": 5430000,
+    "area_sq_km": 323802,
+    "popularity_tier": 1
+  },
+  {
+    "country_name": "Oman",
+    "capital": "Muscat",
+    "flag_code": "om",
+    "type": "country",
+    "gdp_nominal_2022": 114667000000,
+    "population": 4580000,
+    "area_sq_km": 309500,
+    "popularity_tier": 2
+  },
+  {
+    "country_name": "Pakistan",
+    "capital": "Islamabad",
+    "flag_code": "pk",
+    "type": "country",
+    "gdp_nominal_2022": 376493000000,
+    "population": 235820000,
+    "area_sq_km": 796095,
+    "popularity_tier": 1
+  },
+  {
+    "country_name": "Palau",
+    "capital": "Ngerulmud",
+    "flag_code": "pw",
+    "type": "country",
+    "gdp_nominal_2022": 225000000,
+    "population": 20000,
+    "area_sq_km": 459,
+    "popularity_tier": 3
+  },
+  {
+    "country_name": "Panama",
+    "capital": "Panama City",
+    "flag_code": "pa",
+    "type": "country",
+    "gdp_nominal_2022": 71966000000,
+    "population": 4410000,
+    "area_sq_km": 75420,
+    "popularity_tier": 1
+  },
+  {
+    "country_name": "Papua New Guinea",
+    "capital": "Port Moresby",
+    "flag_code": "pg",
+    "type": "country",
+    "gdp_nominal_2022": 31819000000,
+    "population": 10140000,
+    "area_sq_km": 462840,
+    "popularity_tier": 2
+  },
+  {
+    "country_name": "Paraguay",
+    "capital": "Asunción",
+    "flag_code": "py",
+    "type": "country",
+    "gdp_nominal_2022": 41284000000,
+    "population": 6780000,
+    "area_sq_km": 406752,
+    "popularity_tier": 2
+  },
+  {
+    "country_name": "Peru",
+    "capital": "Lima",
+    "flag_code": "pe",
+    "type": "country",
+    "gdp_nominal_2022": 242396000000,
+    "population": 34050000,
+    "area_sq_km": 1285216,
+    "popularity_tier": 1
+  },
+  {
+    "country_name": "Philippines",
+    "capital": "Manila",
+    "flag_code": "ph",
+    "type": "country",
+    "gdp_nominal_2022": 404261000000,
+    "population": 115560000,
+    "area_sq_km": 300000,
+    "popularity_tier": 1
+  },
+  {
+    "country_name": "Pitcairn",
+    "capital": "Adamstown",
+    "flag_code": "pn",
+    "type": "country",
+    "popularity_tier": 3
+  },
+  {
+    "country_name": "Poland",
+    "capital": "Warsaw",
+    "flag_code": "pl",
+    "type": "country",
+    "gdp_nominal_2022": 688301000000,
+    "population": 39860000,
+    "area_sq_km": 312685,
+    "popularity_tier": 1
+  },
+  {
+    "country_name": "Portugal",
+    "capital": "Lisbon",
+    "flag_code": "pt",
+    "type": "country",
+    "gdp_nominal_2022": 252381000000,
+    "population": 10270000,
+    "area_sq_km": 92090,
+    "popularity_tier": 1
+  },
+  {
+    "country_name": "Puerto Rico",
+    "capital": "San Juan",
+    "flag_code": "pr",
+    "type": "country",
+    "gdp_nominal_2022": 116459000000,
+    "population": 3250000,
+    "area_sq_km": 9104,
+    "popularity_tier": 1
+  },
+  {
+    "country_name": "Qatar",
+    "capital": "Doha",
+    "flag_code": "qa",
+    "type": "country",
+    "gdp_nominal_2022": 225477000000,
+    "population": 2700000,
+    "area_sq_km": 11586,
+    "popularity_tier": 2
+  },
+  {
+    "country_name": "Republic of the Congo",
+    "capital": "Brazzaville",
+    "flag_code": "cg",
+    "type": "country",
+    "gdp_nominal_2022": 12530000000,
+    "population": 5970000,
+    "area_sq_km": 342000,
+    "popularity_tier": 2
+  },
+  {
+    "country_name": "Romania",
+    "capital": "Bucharest",
+    "flag_code": "ro",
+    "type": "country",
+    "gdp_nominal_2022": 301845000000,
+    "population": 19660000,
+    "area_sq_km": 238391,
+    "popularity_tier": 1
+  },
+  {
+    "country_name": "Russia",
+    "capital": "Moscow",
+    "flag_code": "ru",
+    "type": "country",
+    "gdp_nominal_2022": 2215290000000,
+    "population": 144710000,
+    "area_sq_km": 17098242,
+    "popularity_tier": 1
+  },
+  {
+    "country_name": "Rwanda",
+    "capital": "Kigali",
+    "flag_code": "rw",
+    "type": "country",
+    "gdp_nominal_2022": 12703000000,
+    "population": 13780000,
+    "area_sq_km": 26338,
+    "popularity_tier": 2
+  },
+  {
+    "country_name": "Réunion",
+    "capital": "Saint-Denis",
+    "flag_code": "re",
+    "type": "country",
+    "population": 970000,
+    "popularity_tier": 3
+  },
+  {
+    "country_name": "Saint Barthélemy",
+    "capital": "Gustavia",
+    "flag_code": "bl",
+    "type": "country",
+    "population": 10000,
+    "popularity_tier": 3
+  },
+  {
+    "country_name": "Saint Helena, Ascension and Tristan da Cunha",
+    "capital": "Jamestown",
+    "flag_code": "sh",
+    "type": "country",
+    "popularity_tier": 3
+  },
+  {
+    "country_name": "Saint Kitts and Nevis",
+    "capital": "Basseterre",
+    "flag_code": "kn",
+    "type": "country",
+    "gdp_nominal_2022": 973000000,
+    "population": 50000,
+    "area_sq_km": 261,
+    "popularity_tier": 3
+  },
+  {
+    "country_name": "Saint Lucia",
+    "capital": "Castries",
+    "flag_code": "lc",
+    "type": "country",
+    "gdp_nominal_2022": 2084000000,
+    "population": 180000,
+    "area_sq_km": 616,
+    "popularity_tier": 3
+  },
+  {
+    "country_name": "Saint Martin",
+    "capital": "Marigot",
+    "flag_code": "mf",
+    "type": "country",
+    "popularity_tier": 3
+  },
+  {
+    "country_name": "Saint Pierre and Miquelon",
+    "capital": "Saint-Pierre",
+    "flag_code": "pm",
+    "type": "country",
+    "population": 10000,
+    "area_sq_km": 242,
+    "popularity_tier": 3
+  },
+  {
+    "country_name": "Saint Vincent and the Grenadines",
+    "capital": "Kingstown",
+    "flag_code": "vc",
+    "type": "country",
+    "gdp_nominal_2022": 947000000,
+    "area_sq_km": 389,
+    "popularity_tier": 3
+  },
+  {
+    "country_name": "Samoa",
+    "capital": "Apia",
+    "flag_code": "ws",
+    "type": "country",
+    "gdp_nominal_2022": 832000000,
+    "population": 220000,
+    "area_sq_km": 2831,
+    "popularity_tier": 2
+  },
+  {
+    "country_name": "San Marino",
+    "capital": "San Marino",
+    "flag_code": "sm",
+    "type": "country",
+    "gdp_nominal_2022": 1686000000,
+    "population": 30000,
+    "area_sq_km": 61,
+    "popularity_tier": 3
+  },
+  {
+    "country_name": "Sao Tome and Principe",
+    "capital": "São Tomé",
+    "flag_code": "st",
+    "type": "country",
+    "gdp_nominal_2022": 552000000,
+    "population": 230000,
+    "area_sq_km": 964,
+    "popularity_tier": 3
+  },
+  {
+    "country_name": "Saudi Arabia",
+    "capital": "Riyadh",
+    "flag_code": "sa",
+    "type": "country",
+    "gdp_nominal_2022": 1108150000000,
+    "population": 36410000,
+    "area_sq_km": 2149690,
+    "popularity_tier": 1
+  },
+  {
+    "country_name": "Scotland",
+    "capital": "Edinburgh",
+    "flag_code": "gb-sct",
+    "type": "country",
+    "popularity_tier": 1
+  },
+  {
+    "country_name": "Senegal",
+    "capital": "Dakar",
+    "flag_code": "sn",
+    "type": "country",
+    "gdp_nominal_2022": 27462000000,
+    "population": 17320000,
+    "area_sq_km": 196722,
+    "popularity_tier": 2
+  },
+  {
+    "country_name": "Serbia",
+    "capital": "Belgrade",
+    "flag_code": "rs",
+    "type": "country",
+    "gdp_nominal_2022": 70909000000,
+    "population": 7220000,
+    "area_sq_km": 77474,
+    "popularity_tier": 2
+  },
+  {
+    "country_name": "Seychelles",
+    "capital": "Victoria",
+    "flag_code": "sc",
+    "type": "country",
+    "gdp_nominal_2022": 1926000000,
+    "population": 110000,
+    "area_sq_km": 455,
+    "popularity_tier": 3
+  },
+  {
+    "country_name": "Sierra Leone",
+    "capital": "Freetown",
+    "flag_code": "sl",
+    "type": "country",
+    "gdp_nominal_2022": 3939000000,
+    "population": 8610000,
+    "area_sq_km": 71740,
+    "popularity_tier": 2
+  },
+  {
+    "country_name": "Singapore",
+    "capital": "Singapore",
+    "flag_code": "sg",
+    "type": "country",
+    "gdp_nominal_2022": 466789000000,
+    "population": 5980000,
+    "area_sq_km": 719,
+    "popularity_tier": 1
+  },
+  {
+    "country_name": "Sint Maarten",
+    "capital": "Philipsburg",
+    "flag_code": "sx",
+    "type": "country",
+    "popularity_tier": 3
+  },
+  {
+    "country_name": "Slovakia",
+    "capital": "Bratislava",
+    "flag_code": "sk",
+    "type": "country",
+    "gdp_nominal_2022": 113529000000,
+    "population": 5640000,
+    "area_sq_km": 49035,
+    "popularity_tier": 2
+  },
+  {
+    "country_name": "Slovenia",
+    "capital": "Ljubljana",
+    "flag_code": "si",
+    "type": "country",
+    "gdp_nominal_2022": 62167000000,
+    "population": 2120000,
+    "area_sq_km": 20273,
+    "popularity_tier": 2
+  },
+  {
+    "country_name": "Solomon Islands",
+    "capital": "Honiara",
+    "flag_code": "sb",
+    "type": "country",
+    "gdp_nominal_2022": 1596000000,
+    "population": 720000,
+    "area_sq_km": 28896,
+    "popularity_tier": 3
+  },
+  {
+    "country_name": "Somalia",
+    "capital": "Mogadishu",
+    "flag_code": "so",
+    "type": "country",
+    "gdp_nominal_2022": 8157999999,
+    "population": 17600000,
+    "area_sq_km": 637657,
+    "popularity_tier": 2
+  },
+  {
+    "country_name": "South Africa",
+    "capital": "Pretoria",
+    "flag_code": "za",
+    "type": "country",
+    "gdp_nominal_2022": 405705000000,
+    "population": 59890000,
+    "area_sq_km": 1219090,
+    "popularity_tier": 1
+  },
+  {
+    "country_name": "South Georgia and the South Sandwich Islands",
+    "capital": "King Edward Point",
+    "flag_code": "gs",
+    "type": "country",
+    "popularity_tier": 3
+  },
+  {
+    "country_name": "South Korea",
+    "capital": "Seoul",
+    "flag_code": "kr",
+    "type": "country",
+    "gdp_nominal_2022": 1665250000000,
+    "population": 51820000,
+    "area_sq_km": 99720,
+    "popularity_tier": 1
+  },
+  {
+    "country_name": "South Sudan",
+    "capital": "Juba",
+    "flag_code": "ss",
+    "type": "country",
+    "gdp_nominal_2022": 7871000000,
+    "population": 10910000,
+    "popularity_tier": 2
+  },
+  {
+    "country_name": "Spain",
+    "capital": "Madrid",
+    "flag_code": "es",
+    "type": "country",
+    "gdp_nominal_2022": 1400520000000,
+    "population": 47560000,
+    "area_sq_km": 505370,
+    "popularity_tier": 1
+  },
+  {
+    "country_name": "Sri Lanka",
+    "capital": "Sri Jayawardenepura Kotte, Colombo",
+    "flag_code": "lk",
+    "type": "country",
+    "gdp_nominal_2022": 75296000000,
+    "population": 21830000,
+    "area_sq_km": 65610,
+    "popularity_tier": 2
+  },
+  {
+    "country_name": "Palestine",
+    "capital": "Ramallah",
+    "flag_code": "ps",
+    "type": "country",
+    "gdp_nominal_2022": 18754000000,
+    "population": 5250000,
+    "area_sq_km": 6020,
+    "popularity_tier": 1
+  },
+  {
+    "country_name": "Sudan",
+    "capital": "Khartoum",
+    "flag_code": "sd",
+    "type": "country",
+    "gdp_nominal_2022": 49423000000,
+    "population": 46870000,
+    "area_sq_km": 1861484,
+    "popularity_tier": 2
+  },
+  {
+    "country_name": "Suriname",
+    "capital": "Paramaribo",
+    "flag_code": "sr",
+    "type": "country",
+    "gdp_nominal_2022": 3521000000,
+    "population": 620000,
+    "area_sq_km": 163820,
+    "popularity_tier": 3
+  },
+  {
+    "country_name": "Svalbard and Jan Mayen",
+    "capital": "Longyearbyen",
+    "flag_code": "sj",
+    "type": "country",
+    "popularity_tier": 3
+  },
+  {
+    "country_name": "Sweden",
+    "capital": "Stockholm",
+    "flag_code": "se",
+    "type": "country",
+    "gdp_nominal_2022": 585939000000,
+    "population": 10550000,
+    "area_sq_km": 450295,
+    "popularity_tier": 1
+  },
+  {
+    "country_name": "Switzerland",
+    "capital": "Bern",
+    "flag_code": "ch",
+    "type": "country",
+    "gdp_nominal_2022": 807234000000,
+    "population": 8740000,
+    "area_sq_km": 41277,
+    "popularity_tier": 1
+  },
+  {
+    "country_name": "Syria",
+    "capital": "Damascus",
+    "flag_code": "sy",
+    "type": "country",
+    "population": 22130000,
+    "area_sq_km": 187437,
+    "popularity_tier": 1
+  },
+  {
+    "country_name": "Taiwan",
+    "capital": "Taipei",
+    "flag_code": "tw",
+    "type": "country",
+    "gdp_nominal_2022": 761691000000,
+    "population": 24000000,
+    "area_sq_km": 36197,
+    "popularity_tier": 1
+  },
+  {
+    "country_name": "Tajikistan",
+    "capital": "Dushanbe",
+    "flag_code": "tj",
+    "type": "country",
+    "gdp_nominal_2022": 10467000000,
+    "population": 9950000,
+    "area_sq_km": 144100,
+    "popularity_tier": 2
+  },
+  {
+    "country_name": "Tanzania",
+    "capital": "Dodoma",
+    "flag_code": "tz",
+    "type": "country",
+    "gdp_nominal_2022": 77063000000,
+    "population": 65500000,
+    "area_sq_km": 947300,
+    "popularity_tier": 2
+  },
+  {
+    "country_name": "Thailand",
+    "capital": "Bangkok",
+    "flag_code": "th",
+    "type": "country",
+    "gdp_nominal_2022": 536159999999,
+    "population": 71700000,
+    "area_sq_km": 513120,
+    "popularity_tier": 1
+  },
+  {
+    "country_name": "Timor-Leste",
+    "capital": "Dili",
+    "flag_code": "tl",
+    "type": "country",
+    "gdp_nominal_2022": 3659000000,
+    "population": 1340000,
+    "area_sq_km": 14874,
+    "popularity_tier": 3
+  },
+  {
+    "country_name": "Togo",
+    "capital": "Lomé",
+    "flag_code": "tg",
+    "type": "country",
+    "gdp_nominal_2022": 8173000000,
+    "population": 8850000,
+    "area_sq_km": 56785,
+    "popularity_tier": 2
+  },
+  {
+    "country_name": "Tokelau",
+    "capital": "Nukunonu, Atafu,Tokelau",
+    "flag_code": "tk",
+    "type": "country",
+    "population": 0,
+    "area_sq_km": 12,
+    "popularity_tier": 3
+  },
+  {
+    "country_name": "Tonga",
+    "capital": "Nukuʻalofa",
+    "flag_code": "to",
+    "type": "country",
+    "gdp_nominal_2022": 498000000,
+    "population": 110000,
+    "area_sq_km": 747,
+    "popularity_tier": 3
+  },
+  {
+    "country_name": "Trinidad and Tobago",
+    "capital": "Port of Spain",
+    "flag_code": "tt",
+    "type": "country",
+    "gdp_nominal_2022": 27883000000,
+    "population": 1530000,
+    "area_sq_km": 5128,
+    "popularity_tier": 2
+  },
+  {
+    "country_name": "Tristan da Cunha",
+    "capital": "None",
+    "flag_code": "ta",
+    "type": "country",
+    "popularity_tier": 3
+  },
+  {
+    "country_name": "Tunisia",
+    "capital": "Tunis",
+    "flag_code": "tn",
+    "type": "country",
+    "gdp_nominal_2022": 46601000000,
+    "population": 12360000,
+    "area_sq_km": 163610,
+    "popularity_tier": 2
+  },
+  {
+    "country_name": "Turkmenistan",
+    "capital": "Ashgabat",
+    "flag_code": "tm",
+    "type": "country",
+    "gdp_nominal_2022": 78003000000,
+    "population": 6430000,
+    "area_sq_km": 488100,
+    "popularity_tier": 2
+  },
+  {
+    "country_name": "Turks and Caicos Islands",
+    "capital": "Cockburn Town",
+    "flag_code": "tc",
+    "type": "country",
+    "population": 50000,
+    "area_sq_km": 948,
+    "popularity_tier": 2
+  },
+  {
+    "country_name": "Tuvalu",
+    "capital": "Funafuti",
+    "flag_code": "tv",
+    "type": "country",
+    "gdp_nominal_2022": 60000000,
+    "population": 10000,
+    "area_sq_km": 26,
+    "popularity_tier": 3
+  },
+  {
+    "country_name": "Türkiye",
+    "capital": "Ankara",
+    "flag_code": "tr",
+    "type": "country",
+    "gdp_nominal_2022": 905527000000,
+    "population": 85340000,
+    "area_sq_km": 783562,
+    "popularity_tier": 1
+  },
+  {
+    "country_name": "Uganda",
+    "capital": "Kampala",
+    "flag_code": "ug",
+    "type": "country",
+    "gdp_nominal_2022": 48841000000,
+    "population": 47250000,
+    "area_sq_km": 241038,
+    "popularity_tier": 2
+  },
+  {
+    "country_name": "Ukraine",
+    "capital": "Kiev",
+    "flag_code": "ua",
+    "type": "country",
+    "gdp_nominal_2022": 151502000000,
+    "population": 39700000,
+    "area_sq_km": 603550,
+    "popularity_tier": 1
+  },
+  {
+    "country_name": "United Arab Emirates",
+    "capital": "Abu Dhabi",
+    "flag_code": "ae",
+    "type": "country",
+    "gdp_nominal_2022": 507535000000,
+    "population": 9440000,
+    "area_sq_km": 83600,
+    "popularity_tier": 2
+  },
+  {
+    "country_name": "United Kingdom",
+    "capital": "London",
+    "flag_code": "gb",
+    "type": "country",
+    "gdp_nominal_2022": 3070600000000,
+    "population": 67510000,
+    "area_sq_km": 243610,
+    "popularity_tier": 1
+  },
+  {
+    "country_name": "United Nations",
+    "capital": "None",
+    "flag_code": "un",
+    "type": "country",
+    "popularity_tier": 3
+  },
+  {
+    "country_name": "United States Minor Outlying Islands",
+    "capital": "Washington, D.C.",
+    "flag_code": "um",
+    "type": "country",
+    "popularity_tier": 3
+  },
+  {
+    "country_name": "United States of America",
+    "capital": "Washington, D.C.",
+    "flag_code": "us",
+    "type": "country",
+    "gdp_nominal_2022": 25464480000000,
+    "population": 338290000,
+    "area_sq_km": 9833517,
+    "popularity_tier": 1
+  },
+  {
+    "country_name": "Unknown",
+    "capital": "None",
+    "flag_code": "xx",
+    "type": "country",
+    "popularity_tier": 3
+  },
+  {
+    "country_name": "Uruguay",
+    "capital": "Montevideo",
+    "flag_code": "uy",
+    "type": "country",
+    "gdp_nominal_2022": 71887000000,
+    "population": 3420000,
+    "area_sq_km": 176215,
+    "popularity_tier": 2
+  },
+  {
+    "country_name": "Uzbekistan",
+    "capital": "Tashkent",
+    "flag_code": "uz",
+    "type": "country",
+    "gdp_nominal_2022": 80418000000,
+    "population": 34630000,
+    "area_sq_km": 447400,
+    "popularity_tier": 2
+  },
+  {
+    "country_name": "Vanuatu",
+    "capital": "Port Vila",
+    "flag_code": "vu",
+    "type": "country",
+    "gdp_nominal_2022": 1000999999,
+    "population": 330000,
+    "area_sq_km": 12189,
+    "popularity_tier": 3
+  },
+  {
+    "country_name": "Venezuela",
+    "capital": "Caracas",
+    "flag_code": "ve",
+    "type": "country",
+    "gdp_nominal_2022": 93111000000,
+    "population": 28300000,
+    "area_sq_km": 912050,
+    "popularity_tier": 1
+  },
+  {
+    "country_name": "Vietnam",
+    "capital": "Hanoi",
+    "flag_code": "vn",
+    "type": "country",
+    "gdp_nominal_2022": 406452000000,
+    "population": 98190000,
+    "area_sq_km": 331210,
+    "popularity_tier": 1
+  },
+  {
+    "country_name": "Virgin Islands (British)",
+    "capital": "Road Town",
+    "flag_code": "vg",
+    "type": "country",
+    "population": 30000,
+    "area_sq_km": 151,
+    "popularity_tier": 2
+  },
+  {
+    "country_name": "Virgin Islands (U.S.)",
+    "capital": "Charlotte Amalie",
+    "flag_code": "vi",
+    "type": "country",
+    "population": 100000,
+    "area_sq_km": 1910,
+    "popularity_tier": 2
+  },
+  {
+    "country_name": "Wales",
+    "capital": "Cardiff",
+    "flag_code": "gb-wls",
+    "type": "country",
+    "popularity_tier": 2
+  },
+  {
+    "country_name": "Wallis and Futuna",
+    "capital": "Mata-Utu",
+    "flag_code": "wf",
+    "type": "country",
+    "population": 10000,
+    "area_sq_km": 142,
+    "popularity_tier": 3
+  },
+  {
+    "country_name": "Western Sahara",
+    "capital": "Laayoune",
+    "flag_code": "eh",
+    "type": "country",
+    "population": 580000,
+    "area_sq_km": 266000,
+    "popularity_tier": 3
+  },
+  {
+    "country_name": "Yemen",
+    "capital": "Sana'a",
+    "flag_code": "ye",
+    "type": "country",
+    "gdp_nominal_2022": 20645000000,
+    "population": 33700000,
+    "area_sq_km": 527968,
+    "popularity_tier": 2
+  },
+  {
+    "country_name": "Zambia",
+    "capital": "Lusaka",
+    "flag_code": "zm",
+    "type": "country",
+    "gdp_nominal_2022": 28500000000,
+    "population": 20020000,
+    "area_sq_km": 752618,
+    "popularity_tier": 2
+  },
+  {
+    "country_name": "Zimbabwe",
+    "capital": "Harare",
+    "flag_code": "zw",
+    "type": "country",
+    "gdp_nominal_2022": 33020000000,
+    "population": 16320000,
+    "area_sq_km": 390757,
+    "popularity_tier": 2
+  }
+]
