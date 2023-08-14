@@ -258,12 +258,12 @@ function App() {
         </div>
         <div className="game-configuration">
           <i className="fa-solid fa-gear settings-icon" onClick={() => setIsModalOpen(true)}></i>
-          <SettingsModal
+{/*          <SettingsModal
             isOpen={isModalOpen}
             onClose={() => setIsModalOpen(false)}
             settings={settings}
             onSettingChange={onSettingChange}
-          />
+          />*/}
         </div>
       </div>
       {showFinishScreen ? (

@@ -235,4 +235,23 @@ code {
     margin-left: 5%;
     margin-right: 5%;
   }
+  .question-count {
+    font-size: 0.6em;
+    font-weight: bold;
+  }
+  .game-info span {
+    margin-right: 5px;
+  }
+  .status-box {
+    margin: 0 3px;
+  }
+  .question-section, .finish-label {
+    font-size: 1.5em;
+  }
+  .results-table {
+    font-size: 0.8em;
+  }
+  .results-table th, .results-table td {
+    padding: 4px 6px;
+  }
 }
