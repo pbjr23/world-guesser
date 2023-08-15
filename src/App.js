@@ -3,6 +3,7 @@
 import React, { useState, useEffect } from 'react';
 import SettingsModal from './SettingsModal';
 import data from './data.json';
+import questionBank from './questionBank.js';
 
 
 function getName(idx) {
@@ -14,6 +15,7 @@ function getName(idx) {
 }
 
 function getFlag(idx) {
+  // console.log(3333, idx);
   return data[idx].flag_code;
 }
 
@@ -29,6 +31,10 @@ function formatNumber(num) {
     }
 }
 
+function getQuestionSet() {
+  return questionBank[Math.floor(Math.random() * questionBank.length)];
+}
+
 
 function App() {
   const [currentQuestion, setCurrentQuestion] = useState(0);
@@ -37,6 +43,7 @@ function App() {
   const [isAnswerVisible, setIsAnswerVisible] = useState(false);
   const [leftCSS, setLeftCSS] = useState("answer-choice-box");
   const [rightCSS, setRightCSS] = useState("answer-choice-box");
+  const [questions, setQuestions] = useState(getQuestionSet());
 
 
   const [isModalOpen, setIsModalOpen] = useState(false);
@@ -68,12 +75,16 @@ function App() {
   //   [259, 35, 'area', 259],
   //   [229, 0, 'population', 0],
   // ];
+  console.log(553435, questionBank.length);
 
-  const questions = [[220, 216, 'population', 220],
- [219, 67, 'population', 67],
- [262, 79, 'population', 79],
- [208, 40, 'population', 40],
- [165, 84, 'GDP', 84]];
+  console.log('hi', questions);
+
+
+ //  const questions = [[220, 216, 'population', 220],
+ // [219, 67, 'population', 67],
+ // [262, 79, 'population', 79],
+ // [208, 40, 'population', 40],
+ // [165, 84, 'GDP', 84]];
 
   function getStatusBoxCSS(idx) {
     if (results[idx] === true) {
@@ -115,7 +126,7 @@ function App() {
 
     message += `${largerName} has ${questionType === "area" ? "an" : "a"} ${questionType} of `;
     message += `${largerDisplayValue}, which is ${parseFloat(Math.round(percentDiff)).toLocaleString()}% larger than `;
-    message += `${smallerName}'s ${questionType} of ${smallerDisplayValue}`;
+    message += `${smallerName}'s ${questionType} of ${smallerDisplayValue}.`;
     return message;
   }
 
@@ -225,7 +236,7 @@ function App() {
       }
       setLeftCSS("answer-choice-box");
       setRightCSS("answer-choice-box");
-    }, 2000);
+    }, 3000);
 
   };
 
