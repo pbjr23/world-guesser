@@ -1,15 +1,12 @@
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
+  font-family: 'Nanum Gothic', sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
 
 code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+  font-family: 'Nanum Gothic', sans-serif;
 }
 
 .game {
@@ -32,7 +29,7 @@ code {
 }
 
 .game-info {
-  font-size: 1.75em;
+  font-size: 1.5em;
   font-weight: bold;
   color: #555;
   display: flex;
@@ -80,8 +77,43 @@ code {
   justify-content: flex-end;
 }
 
-.settings-icon {
+.info-icon {
   color: #555;
+}
+
+.info-modal {
+  width: 500px;
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.3);
+  z-index: 2;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  outline: none;
+}
+
+.info-modal-header {
+  font-family: 'Crete Round', serif;
+}
+
+.info-modal-header h2 {
+  text-align: center;
+}
+
+.info-modal-content {
+  font-family: 'Nanum Gothic', sans-serif;
+}
+
+.info-modal-close-icon {
+  cursor: pointer;
+  padding: 5px;
+  border: none;
+  background: none;
+  font-size: 15px;
+  float: right;
 }
 
 .question-section, .finish-label {
@@ -132,8 +164,8 @@ code {
 
 .correct-answer-summary {
   padding-top: 1em;
-  font-size: 0.9em;
-  text-align: center;
+  font-size: 0.8em;
+/*  text-align: center;*/
 }
 
 .answer-summary-green {
@@ -172,25 +204,29 @@ code {
   background-color: #F1DDDF;
 }
 
-.modal-backdrop {
-    position: fixed;
-    top: 0;
-    left: 0;
-    right: 0;
-    bottom: 0;
-    background: rgba(0, 0, 0, 0.5);
-    display: flex;
-    justify-content: center;
-    align-items: center;
+.next-question-button {
+  width: 100%;
+  height: 2.5em;
+  color: #555;
+  padding: 5px 10px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  position: relative;
+  display: inline-block;
+  outline: none;
+  border-radius: 5px;
+  border: 4px solid #555;
+  background: #fff;
+  margin-top: 1em;
+  margin-bottom: 0.5em;
+  font-family: 'Nanum Gothic', sans-serif;
+  font-size: 1em;
+  font-weight: bold;
 }
 
-.modal-content {
-    background: white;
-    padding: 20px;
-    border-radius: 8px;
-    max-width: 400px;
-    width: 90%;
-    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.2);
+.next-question-button:hover {
+  background: #555;
+  color: #fff
 }
 
 .results-table {
@@ -221,15 +257,25 @@ code {
 }
 
 /* Styling for selected cell */
-/*.selected {
-    border: 3px solid #333 !important;
-}*/
+.selected {
+    font-style: italic;
+}
+
+.correct-answer {
+  font-weight: bold;
+}
+
+.centered {
+  text-align: center !important;
+  font-weight: bold;
+}
 
 .flag-mini {
   margin-right: 5px;
 }
 
 /* Responsive Design */
+/* Extra small devices (phones, 600px and down) */
 @media only screen and (max-width: 600px) {
   .game {
     margin-left: 5%;
@@ -243,6 +289,8 @@ code {
     margin-right: 5px;
   }
   .status-box {
+    height: 15px;
+    width: 15px;
     margin: 0 3px;
   }
   .question-section, .finish-label {
@@ -253,5 +301,75 @@ code {
   }
   .results-table th, .results-table td {
     padding: 4px 6px;
+  }
+  .correct-answer-details {
+    font-size: 0.75em;
+  }
+  .info-modal {
+    width: 80%;
+    font-size: 0.8em;
+  }
+  .answer-choice-box, .answer-choice-box-fixed, .green-correct-choice, .red-incorrect-choice {
+    font-size: 0.6em;
+  }
+}
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+  .game {
+    margin-left: 10%;
+    margin-right: 10%;
+  }
+  .question-count {
+    font-size: 0.7em;
+    font-weight: bold;
+  }
+  .game-info span {
+    margin-right: 5px;
+  }
+  .status-box {
+    margin: 0 3px;
+  }
+  .question-section, .finish-label {
+    font-size: 1.5em;
+  }
+  .results-table {
+    font-size: 1em;
+  }
+  .results-table th, .results-table td {
+    padding: 4px 6px;
+  }
+  .correct-answer-details {
+    font-size: 0.8em;
+  }
+  .info-modal {
+    width: 90%;
+  }
+}
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+  .game {
+    margin-left: 15%;
+    margin-right: 15%;
+  }
+  .question-count {
+    font-size: 0.8em;
+    font-weight: bold;
+  }
+  .info-modal {
+    width: 500px;
+  }
+}
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+.game {
+    margin-left: 25%;
+    margin-right: 25%;
+  }
+  .question-count {
+    font-size: 1em;
+    font-weight: bold;
+  }
+  .info-modal {
+    width: 500px;
   }
 }

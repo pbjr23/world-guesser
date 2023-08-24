@@ -1,9 +1,7 @@
-// src/App.js
-
-import React, { useState, useEffect } from 'react';
-import SettingsModal from './SettingsModal';
+import React, { useState } from 'react';
 import data from './data.json';
 import questionBank from './questionBank.js';
+import ReactModal from 'react-modal';
 
 
 function getName(idx) {
@@ -14,8 +12,15 @@ function getName(idx) {
   }
 }
 
+function getNameWithoutLabel(idx) {
+  if (data[idx].type === 'US state') {
+    return data[idx].state_name;
+  } else {
+    return data[idx].country_name;
+  }
+}
+
 function getFlag(idx) {
-  // console.log(3333, idx);
   return data[idx].flag_code;
 }
 
@@ -36,7 +41,7 @@ function getQuestionSet() {
 }
 
 
-function App() {
+function TriviaApp() {
   const [currentQuestion, setCurrentQuestion] = useState(0);
   const [results, setResults] = useState(Array(5).fill(null));
   const [showFinishScreen, setShowFinishScreen] = useState(false);
@@ -44,47 +49,8 @@ function App() {
   const [leftCSS, setLeftCSS] = useState("answer-choice-box");
   const [rightCSS, setRightCSS] = useState("answer-choice-box");
   const [questions, setQuestions] = useState(getQuestionSet());
+  const [isInfoModalOpen, setIsInfoModalOpen] = useState(false);
 
-
-  const [isModalOpen, setIsModalOpen] = useState(false);
-  const [settings, setSettings] = useState({
-    world_game_delay: 4,
-    world_game_units: 'miles'
-  });
-
-  useEffect(() => {
-    // Load settings from cookies on component mount
-    console.log(document.cookie);
-    const delay = document.cookie.split('; ').find(row => row.startsWith('world_game_delay='))?.split('=')[1];
-    const unit = document.cookie.split('; ').find(row => row.startsWith('world_game_units='))?.split('=')[1];
-
-    if (delay && unit) {
-      setSettings({ delay, unit });
-    }
-  }, []);
-
-  const onSettingChange = (key, value) => {
-    setSettings(prevSettings => ({ ...prevSettings, [key]: value }));
-    document.cookie = `${key}=${value}; max-age=31536000`; // Cookie lasts for a year
-  };
-
-  // const questions = [
-  //   [24, 87, 'population', 87],
-  //   [137, 300, 'GDP', 300],
-  //   [81, 3, 'population', 81],
-  //   [259, 35, 'area', 259],
-  //   [229, 0, 'population', 0],
-  // ];
-  console.log(553435, questionBank.length);
-
-  console.log('hi', questions);
-
-
- //  const questions = [[220, 216, 'population', 220],
- // [219, 67, 'population', 67],
- // [262, 79, 'population', 79],
- // [208, 40, 'population', 40],
- // [165, 84, 'GDP', 84]];
 
   function getStatusBoxCSS(idx) {
     if (results[idx] === true) {
@@ -98,13 +64,13 @@ function App() {
 
   function generateAnswerSummary(leftIdx, rightIdx, questionType) {
 
-    let message = results[currentQuestion] ? "Correct! " : "Incorrect - ";
+    let message = results[currentQuestion] ? "Correct! " : "Incorrect! ";
     const largerIdx = questions[currentQuestion][3];
     const smallerIdx = questions[currentQuestion][0] === questions[currentQuestion][3] ? questions[currentQuestion][1] : questions[currentQuestion][0];
     let largerName, smallerName, largerValue, smallerValue, largerDisplayValue, smallerDisplayValue;
 
-    largerName = getName(largerIdx);
-    smallerName = getName(smallerIdx);
+    largerName = getNameWithoutLabel(largerIdx);
+    smallerName = getNameWithoutLabel(smallerIdx);
     if (questionType === 'GDP') {
       largerValue = data[largerIdx].gdp_nominal_2022;
       largerDisplayValue = "$" + formatNumber(largerValue);
@@ -116,9 +82,9 @@ function App() {
       smallerValue = data[smallerIdx].population;
       smallerDisplayValue = formatNumber(smallerValue);
     } else if (questionType === 'area') {
-      const largerValue = data[largerIdx].type === 'country' ? data[largerIdx].area_sq_km / 2.589988 : data[largerIdx].area_sq_miles;
+      largerValue = data[largerIdx].type === 'country' ? data[largerIdx].area_sq_km / 2.589988 : data[largerIdx].area_sq_miles;
       largerDisplayValue = formatNumber(largerValue) + " square miles";
-      const smallerValue = data[smallerIdx].type === 'country' ? data[smallerIdx].area_sq_km / 2.589988 : data[smallerIdx].area_sq_miles;
+      smallerValue = data[smallerIdx].type === 'country' ? data[smallerIdx].area_sq_km / 2.589988 : data[smallerIdx].area_sq_miles;
       smallerDisplayValue = formatNumber(smallerValue) + " square miles";
     }
 
@@ -168,17 +134,20 @@ function App() {
       <table className="results-table">
         <tbody>
           {results.map((result, idx) => (
-            <tr key={idx + 1} className={results[idx] ? "correct" : "incorrect"}>
-              <td>{idx + 1}</td>
-              <td>Larger {questions[idx][2]}?</td>
-              <td className={(results[idx] ? (questions[idx][0] === questions[idx][3]) : (questions[idx][0] !== questions[idx][3])) ? "selected" : ""}>
+            <React.Fragment key={idx+1}>
+            <tr className={results[idx] ? "correct" : "incorrect"}>
+              <td rowSpan="2">{idx + 1}</td>
+              <td colSpan="2" className="centered">Larger {questions[idx][2]}?</td>
+            </tr>
+            <tr>
+              <td width="50%"  className={`${(results[idx] ? (questions[idx][0] === questions[idx][3]) : (questions[idx][0] !== questions[idx][3])) ? "selected" : ""} ${results[idx] ? "correct" : "incorrect"} ${questions[idx][0] === questions[idx][3] ? "correct-answer" : ""}`}>
                 <span className={`fi flag-mini fi-${ getFlag(questions[idx][0])  }`}></span>
                 {getName(questions[idx][0])}
                 <div>
                   {generateDisplayStatistic(questions[idx][0], questions[idx][2])}
                 </div>
               </td>
-              <td className={(results[idx] ? (questions[idx][1] === questions[idx][3]) : (questions[idx][1] !== questions[idx][3])) ? "selected" : ""}>
+              <td width="50%" className={`${(results[idx] ? (questions[idx][1] === questions[idx][3]) : (questions[idx][1] !== questions[idx][3])) ? "selected" : ""} ${results[idx] ? "correct" : "incorrect"} ${questions[idx][1] === questions[idx][3] ? "correct-answer" : ""} `}>
                 <span className={`fi flag-mini fi-${ getFlag(questions[idx][1])  }`}></span>
                 {getName(questions[idx][1])}
                 <div>
@@ -186,6 +155,7 @@ function App() {
                 </div>
               </td>
             </tr>
+            </React.Fragment>
           ))}
         </tbody>
       </table>
@@ -194,7 +164,7 @@ function App() {
 
   // Called when the user clicks on an option
   // Determines whether the user chose correct, shows the correct answer,
-  // updates the internal score variables, and moves to the next question
+  // and updates the internal score variables
   const handleAnswerChoiceClick = (userChoice, otherChoice, questionType) => {
     console.log(userChoice, otherChoice, questionType);
 
@@ -223,22 +193,41 @@ function App() {
       setLeftCSS("answer-choice-box-fixed");
     }
     setIsAnswerVisible(true);
-
-    // After 4 seconds, reset the correct answer display and move to the next question
-    setTimeout(() => {
-      setIsAnswerVisible(false);
-      // Move to the next question
-      const nextQuestion = currentQuestion + 1;
-      if (nextQuestion < questions.length) {
-        setCurrentQuestion(nextQuestion);
-      } else {
-        setShowFinishScreen(true);
-      }
-      setLeftCSS("answer-choice-box");
-      setRightCSS("answer-choice-box");
-    }, 3000);
-
   };
+
+  const handleNextQuestionClick = () => {
+    setIsAnswerVisible(false);
+    // Move to the next question
+    const nextQuestion = currentQuestion + 1;
+    if (nextQuestion < questions.length) {
+      setCurrentQuestion(nextQuestion);
+    } else {
+      setShowFinishScreen(true);
+    }
+    setLeftCSS("answer-choice-box");
+    setRightCSS("answer-choice-box");
+  };
+
+  const handlePlayAgainClick = () => {
+    const newQuestions = getQuestionSet();
+
+    setShowFinishScreen(false);
+    setQuestions(newQuestions);
+    setResults(Array(5).fill(null));
+    setIsAnswerVisible(false);
+    setLeftCSS("answer-choice-box");
+    setRightCSS("answer-choice-box");
+    setCurrentQuestion(0);
+  };
+
+  const handleOpenInfoModal = () => {
+    setIsInfoModalOpen(true);
+  };
+
+  const handleCloseInfoModal = () => {
+    setIsInfoModalOpen(false);
+  };
+
 
   const leftIdx = questions[currentQuestion][0];
   const rightIdx = questions[currentQuestion][1];
@@ -253,7 +242,7 @@ function App() {
       <div className="game-info">
         <div className="question-count">
           {showFinishScreen ? (
-              <div>Quiz Complete</div>
+              <div>Results</div>
             ) : (
               <div>
                 <span>Question</span> {1 + currentQuestion} / {questions.length}
@@ -268,13 +257,28 @@ function App() {
           <div className={`status-box ${ getStatusBoxCSS(4) }`}></div>
         </div>
         <div className="game-configuration">
-          <i className="fa-solid fa-gear settings-icon" onClick={() => setIsModalOpen(true)}></i>
-{/*          <SettingsModal
-            isOpen={isModalOpen}
-            onClose={() => setIsModalOpen(false)}
-            settings={settings}
-            onSettingChange={onSettingChange}
-          />*/}
+          <i className="fa-solid fa-circle-question info-icon" onClick={handleOpenInfoModal}></i>
+          <ReactModal
+            isOpen={isInfoModalOpen}
+            contentLabel="Info"
+            onRequestClose={handleCloseInfoModal}
+            className="info-modal"
+            ariaHideApp={false}
+          >
+              <i className="fa-solid fa-x info-modal-close-icon" onClick={handleCloseInfoModal}></i>
+              <div className="info-modal-header">
+                <h2>Game Information</h2>
+              </div>
+              <div className="info-modal-content">
+                <p>This trivia game asks you to compare various attributes of two locations (either a country or a US state). There are three different categories of questions:</p>
+                <h4>GDP</h4>
+                <p>This will ask you to choose the location with the higher nominal GDP. These values are from 2022 and are sourced from the World Economic Database and the US Bureau of Economic Analysis.</p>
+                <h4>Population</h4>
+                <p>This will ask you to choose the location with the larger population. This data comes from the United Nations and the US Census and is based on 2022 values and estimates.</p>
+                <h4>Area</h4>
+                <p>This will ask you to choose the location with the larger area. This includes land and water area for a location and is sourced from CIA World Factbook.</p>
+            </div>
+          </ReactModal>
         </div>
       </div>
       {showFinishScreen ? (
@@ -283,6 +287,7 @@ function App() {
             Score: {results.filter(value => value === true).length} out of {questions.length}
           </div>
           {generateResultsTable()}
+          <button className="next-question-button" onClick={handlePlayAgainClick}>Play Again!</button>
         </div>
       ) : (
         <div className="question-section">
@@ -307,6 +312,7 @@ function App() {
           </div>
           {isAnswerVisible && <div className={`correct-answer-summary ${results[currentQuestion] ? "answer-summary-green" : "answer-summary-red"}`}>
               {generateAnswerSummary(leftIdx, rightIdx, currQuestionType)}
+              <button className="next-question-button" onClick={handleNextQuestionClick}>Next Question</button>
           </div>}
         </div>
       )}
@@ -314,4 +320,4 @@ function App() {
   )
 };
 
-export default App;
+export default TriviaApp;
