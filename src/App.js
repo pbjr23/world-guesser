@@ -312,7 +312,9 @@ function TriviaApp() {
           </div>
           {isAnswerVisible && <div className={`correct-answer-summary ${results[currentQuestion] ? "answer-summary-green" : "answer-summary-red"}`}>
               {generateAnswerSummary(leftIdx, rightIdx, currQuestionType)}
-              <button className="next-question-button" onClick={handleNextQuestionClick}>Next Question</button>
+              <button className="next-question-button" onClick={handleNextQuestionClick}>
+              {currentQuestion < (questions.length - 1) ? "Next Question" : "View Results"}
+              </button>
           </div>}
         </div>
       )}
