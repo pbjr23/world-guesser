@@ -1,11 +1,11 @@
 self.__precacheManifest = [
   {
-    "revision": "eac7d3e7402216ae9790",
-    "url": "/world-guesser/static/css/main.6dd007a3.chunk.css"
+    "revision": "fe76d27113c34d66d75a",
+    "url": "/world-guesser/static/css/main.f2e95c3e.chunk.css"
   },
   {
-    "revision": "eac7d3e7402216ae9790",
-    "url": "/world-guesser/static/js/main.eac7d3e7.chunk.js"
+    "revision": "fe76d27113c34d66d75a",
+    "url": "/world-guesser/static/js/main.fe76d271.chunk.js"
   },
   {
     "revision": "8a1229037873ab4e6605",
@@ -20,7 +20,7 @@ self.__precacheManifest = [
     "url": "/world-guesser/static/js/runtime~main.344258b6.js"
   },
   {
-    "revision": "04f3dd7c1b84816c49d92d11a3fe4504",
+    "revision": "e1e7697cd5d3ab64ae7365fadf681e8f",
     "url": "/world-guesser/index.html"
   }
 ];

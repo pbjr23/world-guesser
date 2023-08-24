@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/3.6.3/workbox-sw.js");
 
 importScripts(
-  "/world-guesser/precache-manifest.f0f698c08aa6475a10306d9ee76e86aa.js"
+  "/world-guesser/precache-manifest.6173fa99fd9931f0b47540f424316acc.js"
 );
 
 workbox.clientsClaim();

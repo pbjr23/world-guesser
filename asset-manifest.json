@@ -1,15 +1,15 @@
 {
-  "main.css": "/world-guesser/static/css/main.6dd007a3.chunk.css",
-  "main.js": "/world-guesser/static/js/main.eac7d3e7.chunk.js",
-  "main.js.map": "/world-guesser/static/js/main.eac7d3e7.chunk.js.map",
+  "main.css": "/world-guesser/static/css/main.f2e95c3e.chunk.css",
+  "main.js": "/world-guesser/static/js/main.fe76d271.chunk.js",
+  "main.js.map": "/world-guesser/static/js/main.fe76d271.chunk.js.map",
   "static/js/1.8a122903.chunk.js": "/world-guesser/static/js/1.8a122903.chunk.js",
   "static/js/1.8a122903.chunk.js.map": "/world-guesser/static/js/1.8a122903.chunk.js.map",
   "static/js/2.04ccf6ed.chunk.js": "/world-guesser/static/js/2.04ccf6ed.chunk.js",
   "static/js/2.04ccf6ed.chunk.js.map": "/world-guesser/static/js/2.04ccf6ed.chunk.js.map",
   "runtime~main.js": "/world-guesser/static/js/runtime~main.344258b6.js",
   "runtime~main.js.map": "/world-guesser/static/js/runtime~main.344258b6.js.map",
-  "static/css/main.6dd007a3.chunk.css.map": "/world-guesser/static/css/main.6dd007a3.chunk.css.map",
+  "static/css/main.f2e95c3e.chunk.css.map": "/world-guesser/static/css/main.f2e95c3e.chunk.css.map",
   "index.html": "/world-guesser/index.html",
-  "precache-manifest.f0f698c08aa6475a10306d9ee76e86aa.js": "/world-guesser/precache-manifest.f0f698c08aa6475a10306d9ee76e86aa.js",
+  "precache-manifest.6173fa99fd9931f0b47540f424316acc.js": "/world-guesser/precache-manifest.6173fa99fd9931f0b47540f424316acc.js",
   "service-worker.js": "/world-guesser/service-worker.js"
 }
